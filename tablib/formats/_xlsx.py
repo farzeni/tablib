@@ -139,11 +139,11 @@ def dset_sheet(dataset, ws, freeze_panes=True):
             else:
                 try:
                     if '\n' in col:
-                        cell.value = unicode('%s' % col, errors='ignore')
+                        cell.value = col
                         cell.alignment = wrap_text
                     else:
-                        cell.value = unicode('%s' % col, errors='ignore')
+                        cell.value = col
                 except TypeError:
-                    cell.value = unicode(col)
+                    cell.value = col
 
 
