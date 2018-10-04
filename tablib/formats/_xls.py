@@ -137,9 +137,16 @@ def dset_sheet(dataset, ws):
                 try:
                     if isinstance(col, date) or isinstance(col, datetime):
                         ws.write(i, j, col, date_format)
+                    elif isinstance(col, dict):
+                        style = xlwt.XFStyle()
+                        style.num_format_str = col['format']
+                        ws.write(i, j, col['value'], style)
                     elif '\n' in col:
                         ws.write(i, j, col, wrap)
                     else:
                         ws.write(i, j, col)
                 except TypeError as e:
                     ws.write(i, j, col)
+                except Exception as e:
+                    print('invalid col: %s' % e)
+                    print(col)
