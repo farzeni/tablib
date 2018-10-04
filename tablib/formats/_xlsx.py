@@ -138,12 +138,16 @@ def dset_sheet(dataset, ws, freeze_panes=True):
             # wrap the rest
             else:
                 try:
-                    if '\n' in col:
+                    if isinstance(col, dict):
+                        cell.value = col['value']
+                    elif '\n' in col:
                         cell.value = col
                         cell.alignment = wrap_text
                     else:
                         cell.value = col
                 except TypeError:
                     cell.value = col
+                except Exception as e:
+                    print('invalid col %s' % e)
 
 
