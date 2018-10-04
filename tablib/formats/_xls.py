@@ -4,12 +4,11 @@
 """
 
 import sys
-
 from tablib.compat import BytesIO, xrange
 import tablib
 import xlrd
 import xlwt
-import datetime
+from datetime import datetime, date
 from xlrd.biffh import XLRDError
 
 title = 'xls'
@@ -136,11 +135,11 @@ def dset_sheet(dataset, ws):
             # wrap the rest
             else:
                 try:
-                    if '\n' in col:
-                        ws.write(i, j, col, wrap)
-                    elif isinstance(col, datetime.date) or isinstance(col, datetime.datetime):
+                    if isinstance(col, date) or isinstance(col, datetime):
                         ws.write(i, j, col, date_format)
+                    elif '\n' in col:
+                        ws.write(i, j, col, wrap)
                     else:
                         ws.write(i, j, col)
-                except TypeError:
+                except TypeError as e:
                     ws.write(i, j, col)
