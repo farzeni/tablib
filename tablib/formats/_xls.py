@@ -138,7 +138,7 @@ def dset_sheet(dataset, ws):
                 try:
                     if '\n' in col:
                         ws.write(i, j, col, wrap)
-                    elif isinstace(col, datetime.date) or isinstace(col, datetime.datetime):
+                    elif isinstance(col, datetime.date) or isinstance(col, datetime.datetime):
                         ws.write(i, j, col, date_format)
                     else:
                         ws.write(i, j, col)
