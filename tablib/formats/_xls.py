@@ -9,6 +9,7 @@ from tablib.compat import BytesIO, xrange
 import tablib
 import xlrd
 import xlwt
+import datetime
 from xlrd.biffh import XLRDError
 
 title = 'xls'
@@ -17,6 +18,9 @@ extensions = ('xls',)
 # special styles
 wrap = xlwt.easyxf("alignment: wrap on")
 bold = xlwt.easyxf("font: bold on")
+
+date_format = xlwt.XFStyle()
+date_format.num_format_str = 'dd/mm/yyyy'
 
 
 def detect(stream):
@@ -107,6 +111,8 @@ def dset_sheet(dataset, ws):
     """Completes given worksheet from given Dataset."""
     _package = dataset._package(dicts=False)
 
+    
+
     for i, sep in enumerate(dataset._separators):
         _offset = i
         _package.insert((sep[0] + _offset), (sep[1],))
@@ -132,6 +138,8 @@ def dset_sheet(dataset, ws):
                 try:
                     if '\n' in col:
                         ws.write(i, j, col, wrap)
+                    elif isinstace(col, datetime.date) or isinstace(col, datetime.datetime):
+                        ws.write(i, j, col, date_format)
                     else:
                         ws.write(i, j, col)
                 except TypeError:
