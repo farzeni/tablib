@@ -147,6 +147,8 @@ def dset_sheet(dataset, ws, freeze_panes=True):
                 try:
                     if isinstance(col, dict):
                         cell.value = col['value']
+                        if dict['format'] == '@':
+                            cell.style = cell_string_format
                     elif isinstance(col, date):
                         cell.value = col
                         cell.style = cell_date_format
