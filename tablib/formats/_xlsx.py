@@ -23,6 +23,10 @@ get_column_letter = openpyxl.utils.get_column_letter
 
 from tablib.compat import unicode
 
+cell_date_format = NamedStyle(name='date', number_format='DD/MM/YYYY')
+cell_datetime_format = NamedStyle(name='datetime', number_format='DD/MM/YYYY HH:MM:MM')
+cell_string_format = NamedStyle(name='string', number_format='@')
+
 
 title = 'xlsx'
 extensions = ('xlsx',)
@@ -145,13 +149,13 @@ def dset_sheet(dataset, ws, freeze_panes=True):
                         cell.value = col['value']
                     elif isinstance(col, date):
                         cell.value = col
-                        cell.style = NamedStyle(name='datetime', number_format='DD/MM/YYYY')
+                        cell.style = cell_date_format
                     elif isinstance(col, datetime):
                         cell.value = col
-                        cell.style = NamedStyle(name='datetime', number_format='DD/MM/YYYY HH:MM:MM')
+                        cell.style = cell_datetime_format
                     elif isinstance(col, str):
                         cell.value = col
-                        cell.style = NamedStyle(name='string', number_format='@')
+                        cell.style = cell_string_format
                     elif '\n' in col:
                         cell.value = col
                         cell.alignment = wrap_text
