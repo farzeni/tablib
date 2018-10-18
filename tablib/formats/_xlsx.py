@@ -12,6 +12,9 @@ else:
     from cStringIO import StringIO as BytesIO
 
 import openpyxl
+from openpyxl.styles import NamedStyle
+from datetime import datetime, date
+
 import tablib
 
 Workbook = openpyxl.workbook.Workbook
@@ -140,6 +143,15 @@ def dset_sheet(dataset, ws, freeze_panes=True):
                 try:
                     if isinstance(col, dict):
                         cell.value = col['value']
+                    elif isinstance(col, date):
+                        cell.value = col
+                        cell.style = NamedStyle(name='datetime', number_format='DD/MM/YYYY')
+                    elif isinstance(col, datetime):
+                        cell.value = col
+                        cell.style = NamedStyle(name='datetime', number_format='DD/MM/YYYY HH:MM:MM')
+                    elif isinstance(col, str):
+                        cell.value = col
+                        cell.style = NamedStyle(name='string', number_format='@')
                     elif '\n' in col:
                         cell.value = col
                         cell.alignment = wrap_text
