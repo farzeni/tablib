@@ -41,7 +41,7 @@ def detect(stream):
         return False
 
 
-def export_set(dataset):
+def export_set(dataset, **kwargs):
     """Returns XLS representation of Dataset."""
 
     wb = xlwt.Workbook(encoding='utf8')

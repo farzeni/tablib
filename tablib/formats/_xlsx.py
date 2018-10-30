@@ -40,7 +40,7 @@ def detect(stream):
     except openpyxl.shared.exc.InvalidFileException:
         pass
 
-def export_set(dataset, freeze_panes=True):
+def export_set(dataset, freeze_panes=True, **kwargs):
     """Returns XLSX representation of Dataset."""
 
     wb = Workbook()
