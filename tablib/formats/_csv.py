@@ -4,7 +4,7 @@
 """
 
 from tablib.compat import is_py3, csv, StringIO
-
+from datetime import date, datetime
 
 title = 'csv'
 extensions = ('csv',)
@@ -18,6 +18,8 @@ def export_set(dataset, **kwargs):
     """Returns CSV representation of Dataset."""
     stream = StringIO()
 
+    date_format = kwargs.pop('date_format', None)
+
     kwargs.setdefault('delimiter', DEFAULT_DELIMITER)
     if not is_py3:
         kwargs.setdefault('encoding', DEFAULT_ENCODING)
@@ -25,6 +27,11 @@ def export_set(dataset, **kwargs):
     _csv = csv.writer(stream, **kwargs)
 
     for row in dataset._package(dicts=False):
+        if date_format:
+            for idx, value in enumerate(row):
+                if isinstance(value, date) or isinstance(value, datetime):
+                    row[idx] = datetime.strftime(date, date_format)
+
         _csv.writerow(row)
 
     return stream.getvalue()
