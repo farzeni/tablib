@@ -30,7 +30,7 @@ def export_set(dataset, **kwargs):
         if date_format:
             for idx, value in enumerate(row):
                 if isinstance(value, date) or isinstance(value, datetime):
-                    row[idx] = datetime.strftime(date, date_format)
+                    row[idx] = value.strftime(date_format)
 
         _csv.writerow(row)
 
