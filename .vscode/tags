@@ -1,0 +1,889 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ArgumentError	../tablib/packages/markup.py	/^class ArgumentError( MarkupError ):$/;"	kind:class	line:461
+ArgumentError	../tablib/packages/markup3.py	/^class ArgumentError( MarkupError ):$/;"	kind:class	line:463
+BOOK_ENDINGS	../tablib/formats/_html.py	/^BOOK_ENDINGS = 'h3'$/;"	kind:variable	line:19
+ClosingError	../tablib/packages/markup.py	/^class ClosingError( MarkupError ):$/;"	kind:class	line:453
+ClosingError	../tablib/packages/markup3.py	/^class ClosingError( MarkupError ):$/;"	kind:class	line:455
+CustomizationError	../tablib/packages/markup.py	/^class CustomizationError( MarkupError ):$/;"	kind:class	line:477
+CustomizationError	../tablib/packages/markup3.py	/^class CustomizationError( MarkupError ):$/;"	kind:class	line:479
+DEFAULT_DELIMITER	../tablib/formats/_csv.py	/^DEFAULT_DELIMITER = ','$/;"	kind:variable	line:14
+DEFAULT_ENCODING	../tablib/formats/_csv.py	/^DEFAULT_ENCODING = 'utf-8'$/;"	kind:variable	line:13
+DEFAULT_ENCODING	../tablib/formats/_dbf.py	/^DEFAULT_ENCODING = 'utf-8'$/;"	kind:variable	line:27
+DEFAULT_ENCODING	../tablib/formats/_tsv.py	/^DEFAULT_ENCODING = 'utf-8'$/;"	kind:variable	line:15
+DELIMITER	../tablib/formats/_tsv.py	/^DELIMITER = '\\t'$/;"	kind:variable	line:16
+DataFrame	../tablib/formats/_df.py	/^    DataFrame = None$/;"	kind:variable	line:16
+Databook	../tablib/core.py	/^class Databook(object):$/;"	kind:class	line:1049
+Dataset	../tablib/core.py	/^class Dataset(object):$/;"	kind:class	line:110
+DatasetSubclass	../test_tablib.py	/^        class DatasetSubclass(tablib.Dataset):$/;"	kind:class	line:944
+Dbf	../tablib/packages/dbfpy/dbf.py	/^class Dbf(object):$/;"	kind:class	line:70
+Dbf	../tablib/packages/dbfpy3/dbf.py	/^class Dbf(object):$/;"	kind:class	line:70
+DbfCharacterFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfCharacterFieldDef(DbfFieldDef):$/;"	kind:class	line:199
+DbfCharacterFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfCharacterFieldDef(DbfFieldDef):$/;"	kind:class	line:200
+DbfCurrencyFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfCurrencyFieldDef(DbfFieldDef):$/;"	kind:class	line:280
+DbfCurrencyFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfCurrencyFieldDef(DbfFieldDef):$/;"	kind:class	line:281
+DbfDateFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfDateFieldDef(DbfFieldDef):$/;"	kind:class	line:354
+DbfDateFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfDateFieldDef(DbfFieldDef):$/;"	kind:class	line:355
+DbfDateTimeFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfDateTimeFieldDef(DbfFieldDef):$/;"	kind:class	line:385
+DbfDateTimeFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfDateTimeFieldDef(DbfFieldDef):$/;"	kind:class	line:386
+DbfFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfFieldDef(object):$/;"	kind:class	line:41
+DbfFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfFieldDef(object):$/;"	kind:class	line:41
+DbfFloatFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfFloatFieldDef(DbfNumericFieldDef):$/;"	kind:class	line:260
+DbfFloatFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfFloatFieldDef(DbfNumericFieldDef):$/;"	kind:class	line:261
+DbfHeader	../tablib/packages/dbfpy/header.py	/^class DbfHeader(object):$/;"	kind:class	line:35
+DbfHeader	../tablib/packages/dbfpy3/header.py	/^class DbfHeader(object):$/;"	kind:class	line:32
+DbfIntegerFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfIntegerFieldDef(DbfFieldDef):$/;"	kind:class	line:265
+DbfIntegerFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfIntegerFieldDef(DbfFieldDef):$/;"	kind:class	line:266
+DbfLogicalFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfLogicalFieldDef(DbfFieldDef):$/;"	kind:class	line:295
+DbfLogicalFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfLogicalFieldDef(DbfFieldDef):$/;"	kind:class	line:296
+DbfMemoFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfMemoFieldDef(DbfFieldDef):$/;"	kind:class	line:328
+DbfMemoFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfMemoFieldDef(DbfFieldDef):$/;"	kind:class	line:329
+DbfNumericFieldDef	../tablib/packages/dbfpy/fields.py	/^class DbfNumericFieldDef(DbfFieldDef):$/;"	kind:class	line:218
+DbfNumericFieldDef	../tablib/packages/dbfpy3/fields.py	/^class DbfNumericFieldDef(DbfFieldDef):$/;"	kind:class	line:219
+DbfRecord	../tablib/packages/dbfpy/record.py	/^class DbfRecord(object):$/;"	kind:class	line:23
+DbfRecord	../tablib/packages/dbfpy3/record.py	/^class DbfRecord(object):$/;"	kind:class	line:23
+DeprecationError	../tablib/packages/markup.py	/^class DeprecationError( MarkupError ):$/;"	kind:class	line:469
+DeprecationError	../tablib/packages/markup3.py	/^class DeprecationError( MarkupError ):$/;"	kind:class	line:471
+DocTests	../test_tablib.py	/^class DocTests(unittest.TestCase):$/;"	kind:class	line:997
+ExcelWriter	../tablib/formats/_xlsx.py	/^ExcelWriter = openpyxl.writer.excel.ExcelWriter$/;"	kind:variable	line:21
+FLD_TYPES	../tablib/packages/dbfpy/dbfnew.py	/^    FLD_TYPES = {$/;"	kind:variable	line:49
+FLD_TYPES	../tablib/packages/dbfpy3/dbfnew.py	/^    FLD_TYPES = {$/;"	kind:variable	line:49
+FieldDefinitionClass	../tablib/packages/dbfpy/dbfnew.py	/^    FieldDefinitionClass = _FieldDefinition$/;"	kind:variable	line:109
+FieldDefinitionClass	../tablib/packages/dbfpy3/dbfnew.py	/^    FieldDefinitionClass = _FieldDefinition$/;"	kind:variable	line:109
+FlaskyStyle	../docs/_themes/flask_theme_support.py	/^class FlaskyStyle(Style):$/;"	kind:class	line:7
+HeaderClass	../tablib/packages/dbfpy/dbf.py	/^    HeaderClass = header.DbfHeader$/;"	kind:variable	line:88
+HeaderClass	../tablib/packages/dbfpy3/dbf.py	/^    HeaderClass = header.DbfHeader$/;"	kind:variable	line:88
+HeadersNeeded	../tablib/core.py	/^class HeadersNeeded(Exception):$/;"	kind:class	line:1184
+INVALID_VALUE	../tablib/packages/dbfpy/dbf.py	/^    INVALID_VALUE = INVALID_VALUE$/;"	kind:variable	line:90
+INVALID_VALUE	../tablib/packages/dbfpy/utils.py	/^INVALID_VALUE = _InvalidValue()$/;"	kind:variable	line:168
+INVALID_VALUE	../tablib/packages/dbfpy3/dbf.py	/^    INVALID_VALUE = INVALID_VALUE$/;"	kind:variable	line:90
+INVALID_VALUE	../tablib/packages/dbfpy3/utils.py	/^INVALID_VALUE = _InvalidValue()$/;"	kind:variable	line:168
+InvalidDatasetIndex	../tablib/core.py	/^class InvalidDatasetIndex(Exception):$/;"	kind:class	line:1181
+InvalidDatasetType	../tablib/core.py	/^class InvalidDatasetType(Exception):$/;"	kind:class	line:1174
+InvalidDimensions	../tablib/core.py	/^class InvalidDimensions(Exception):$/;"	kind:class	line:1178
+InvalidElementError	../tablib/packages/markup.py	/^class InvalidElementError( MarkupError ):$/;"	kind:class	line:465
+InvalidElementError	../tablib/packages/markup3.py	/^class InvalidElementError( MarkupError ):$/;"	kind:class	line:467
+JDN_GDN_DIFF	../tablib/packages/dbfpy/fields.py	/^    JDN_GDN_DIFF = 1721425$/;"	kind:variable	line:390
+JDN_GDN_DIFF	../tablib/packages/dbfpy3/fields.py	/^    JDN_GDN_DIFF = 1721425$/;"	kind:variable	line:391
+JUSTIFY_CENTER	../tablib/formats/_rst.py	/^JUSTIFY_CENTER = 'center'$/;"	kind:variable	line:26
+JUSTIFY_LEFT	../tablib/formats/_rst.py	/^JUSTIFY_LEFT = 'left'$/;"	kind:variable	line:25
+JUSTIFY_RIGHT	../tablib/formats/_rst.py	/^JUSTIFY_RIGHT = 'right'$/;"	kind:variable	line:27
+JUSTIFY_VALUES	../tablib/formats/_rst.py	/^JUSTIFY_VALUES = (JUSTIFY_LEFT, JUSTIFY_CENTER, JUSTIFY_RIGHT)$/;"	kind:variable	line:28
+MAX_TABLE_WIDTH	../tablib/formats/_rst.py	/^MAX_TABLE_WIDTH = 80  # Roughly. It may be wider to avoid breaking words.$/;"	kind:variable	line:22
+MarkupError	../tablib/packages/markup.py	/^class MarkupError( Exception ):$/;"	kind:class	line:448
+MarkupError	../tablib/packages/markup3.py	/^class MarkupError( Exception ):$/;"	kind:class	line:450
+ModeError	../tablib/packages/markup.py	/^class ModeError( MarkupError ):$/;"	kind:class	line:473
+ModeError	../tablib/packages/markup3.py	/^class ModeError( MarkupError ):$/;"	kind:class	line:475
+NotDataset	../test_tablib.py	/^        class NotDataset(object):$/;"	kind:class	line:934
+OpeningError	../tablib/packages/markup.py	/^class OpeningError( MarkupError ):$/;"	kind:class	line:457
+OpeningError	../tablib/packages/markup3.py	/^class OpeningError( MarkupError ):$/;"	kind:class	line:459
+OrderedDict	../tablib/packages/ordereddict.py	/^class OrderedDict(dict, DictMixin):$/;"	kind:class	line:25
+RecordClass	../tablib/packages/dbfpy/dbf.py	/^    RecordClass = record.DbfRecord$/;"	kind:variable	line:89
+RecordClass	../tablib/packages/dbfpy3/dbf.py	/^    RecordClass = record.DbfRecord$/;"	kind:variable	line:89
+Row	../tablib/core.py	/^class Row(object):$/;"	kind:class	line:29
+TEX_RESERVED_SYMBOLS_MAP	../tablib/formats/_latex.py	/^TEX_RESERVED_SYMBOLS_MAP = dict([$/;"	kind:variable	line:30
+TEX_RESERVED_SYMBOLS_RE	../tablib/formats/_latex.py	/^TEX_RESERVED_SYMBOLS_RE = re.compile($/;"	kind:variable	line:43
+TablibTestCase	../test_tablib.py	/^class TablibTestCase(unittest.TestCase):$/;"	kind:class	line:18
+UnsupportedFormat	../tablib/core.py	/^class UnsupportedFormat(NotImplementedError):$/;"	kind:class	line:1187
+Workbook	../tablib/formats/_xlsx.py	/^Workbook = openpyxl.workbook.Workbook$/;"	kind:variable	line:20
+_FieldDefinition	../tablib/packages/dbfpy/dbfnew.py	/^class _FieldDefinition(object):$/;"	kind:class	line:33
+_FieldDefinition	../tablib/packages/dbfpy3/dbfnew.py	/^class _FieldDefinition(object):$/;"	kind:class	line:33
+_InvalidValue	../tablib/packages/dbfpy/utils.py	/^class _InvalidValue(object):$/;"	kind:class	line:128
+_InvalidValue	../tablib/packages/dbfpy3/utils.py	/^class _InvalidValue(object):$/;"	kind:class	line:128
+__all__	../tablib/packages/dbfpy/dbf.py	/^__all__ = ["Dbf"]$/;"	kind:variable	line:63
+__all__	../tablib/packages/dbfpy/dbfnew.py	/^__all__ = ["dbf_new"]$/;"	kind:variable	line:25
+__all__	../tablib/packages/dbfpy/fields.py	/^__all__ = ["lookupFor",] # field classes added at the end of the module$/;"	kind:variable	line:31
+__all__	../tablib/packages/dbfpy/header.py	/^__all__ = ["DbfHeader"]$/;"	kind:variable	line:20
+__all__	../tablib/packages/dbfpy/record.py	/^__all__ = ["DbfRecord"]$/;"	kind:variable	line:17
+__all__	../tablib/packages/dbfpy3/dbf.py	/^__all__ = ["Dbf"]$/;"	kind:variable	line:63
+__all__	../tablib/packages/dbfpy3/dbfnew.py	/^__all__ = ["dbf_new"]$/;"	kind:variable	line:25
+__all__	../tablib/packages/dbfpy3/fields.py	/^__all__ = ["lookupFor",] # field classes added at the end of the module$/;"	kind:variable	line:31
+__all__	../tablib/packages/dbfpy3/header.py	/^__all__ = ["DbfHeader"]$/;"	kind:variable	line:20
+__all__	../tablib/packages/dbfpy3/record.py	/^__all__ = ["DbfRecord"]$/;"	kind:variable	line:17
+__author__	../tablib/core.py	/^__author__ = 'Kenneth Reitz'$/;"	kind:variable	line:23
+__author__	../tablib/packages/dbfpy/dbf.py	/^__author__ = "Jeff Kunce <kuncej@mail.conservation.state.mo.us>"$/;"	kind:variable	line:61
+__author__	../tablib/packages/dbfpy3/dbf.py	/^__author__ = "Jeff Kunce <kuncej@mail.conservation.state.mo.us>"$/;"	kind:variable	line:61
+__bool__	../tablib/packages/dbfpy3/utils.py	/^    def __bool__(self):$/;"	kind:member	line:148
+__build__	../tablib/core.py	/^__build__ = 0x001201$/;"	kind:variable	line:22
+__call__	../tablib/packages/markup.py	/^    def __call__( self, *args, **kwargs ):$/;"	kind:member	line:37
+__call__	../tablib/packages/markup.py	/^    def __call__( self, escape=False ):$/;"	kind:member	line:196
+__call__	../tablib/packages/markup3.py	/^    def __call__( self, *args, **kwargs ):$/;"	kind:member	line:37
+__call__	../tablib/packages/markup3.py	/^    def __call__( self, escape=False ):$/;"	kind:member	line:198
+__cmp__	../tablib/packages/dbfpy/fields.py	/^    def __cmp__(self, other):$/;"	kind:member	line:106
+__cmp__	../tablib/packages/dbfpy3/fields.py	/^    def __cmp__(self, other):$/;"	kind:member	line:107
+__contains__	../tablib/core.py	/^    def __contains__(self, item):$/;"	kind:member	line:84
+__contains__	../tablib/packages/markup.py	/^    def __contains__( self, item ):$/;"	kind:member	line:444
+__contains__	../tablib/packages/markup3.py	/^    def __contains__( self, item ):$/;"	kind:member	line:446
+__copyright__	../tablib/core.py	/^__copyright__ = 'Copyright 2017 Kenneth Reitz'$/;"	kind:variable	line:25
+__date__	../tablib/packages/dbfpy/dbf.py	/^__date__ = "$Date: 2007\/02\/11 09:23:13 $"[7:-2]$/;"	kind:variable	line:60
+__date__	../tablib/packages/dbfpy/dbfnew.py	/^__date__ = "$Date: 2006\/07\/04 08:18:18 $"[7:-2]$/;"	kind:variable	line:23
+__date__	../tablib/packages/dbfpy/fields.py	/^__date__ = "$Date: 2009\/05\/26 05:16:51 $"[7:-2]$/;"	kind:variable	line:29
+__date__	../tablib/packages/dbfpy/header.py	/^__date__ = "$Date: 2010\/09\/16 05:06:39 $"[7:-2]$/;"	kind:variable	line:18
+__date__	../tablib/packages/dbfpy/record.py	/^__date__ = "$Date: 2007\/02\/11 09:05:49 $"[7:-2]$/;"	kind:variable	line:15
+__date__	../tablib/packages/dbfpy/utils.py	/^__date__ = "$Date: 2007\/02\/11 08:57:17 $"[7:-2]$/;"	kind:variable	line:14
+__date__	../tablib/packages/dbfpy3/dbf.py	/^__date__ = "$Date: 2007\/02\/11 09:23:13 $"[7:-2]$/;"	kind:variable	line:60
+__date__	../tablib/packages/dbfpy3/dbfnew.py	/^__date__ = "$Date: 2006\/07\/04 08:18:18 $"[7:-2]$/;"	kind:variable	line:23
+__date__	../tablib/packages/dbfpy3/fields.py	/^__date__ = "$Date: 2009\/05\/26 05:16:51 $"[7:-2]$/;"	kind:variable	line:29
+__date__	../tablib/packages/dbfpy3/header.py	/^__date__ = "$Date: 2010\/09\/16 05:06:39 $"[7:-2]$/;"	kind:variable	line:18
+__date__	../tablib/packages/dbfpy3/record.py	/^__date__ = "$Date: 2007\/02\/11 09:05:49 $"[7:-2]$/;"	kind:variable	line:15
+__date__	../tablib/packages/dbfpy3/utils.py	/^__date__ = "$Date: 2007\/02\/11 08:57:17 $"[7:-2]$/;"	kind:variable	line:14
+__date__	../tablib/packages/markup.py	/^__date__ = '17 May 2007'$/;"	kind:variable	line:5
+__date__	../tablib/packages/markup3.py	/^__date__ = '17 May 2007'$/;"	kind:variable	line:5
+__delitem__	../tablib/core.py	/^    def __delitem__(self, i):$/;"	kind:member	line:56
+__delitem__	../tablib/core.py	/^    def __delitem__(self, key):$/;"	kind:member	line:199
+__delitem__	../tablib/packages/ordereddict.py	/^    def __delitem__(self, key):$/;"	kind:member	line:49
+__docformat__	../tablib/core.py	/^__docformat__ = 'restructuredtext'$/;"	kind:variable	line:26
+__eq__	../tablib/packages/dbfpy/utils.py	/^    def __eq__(self, other):$/;"	kind:member	line:142
+__eq__	../tablib/packages/dbfpy3/utils.py	/^    def __eq__(self, other):$/;"	kind:member	line:142
+__eq__	../tablib/packages/ordereddict.py	/^    def __eq__(self, other):$/;"	kind:member	line:116
+__float__	../tablib/packages/dbfpy/utils.py	/^    def __float__(self):$/;"	kind:member	line:155
+__float__	../tablib/packages/dbfpy3/utils.py	/^    def __float__(self):$/;"	kind:member	line:155
+__get__	../tablib/packages/dbfpy/utils.py	/^    def __get__(self, obj, cls):$/;"	kind:member	line:124
+__get__	../tablib/packages/dbfpy3/utils.py	/^    def __get__(self, obj, cls):$/;"	kind:member	line:124
+__getattr__	../tablib/packages/markup.py	/^    def __getattr__( self, attr ):$/;"	kind:member	line:182
+__getattr__	../tablib/packages/markup.py	/^    def __getattr__( self, attr ):$/;"	kind:member	line:344
+__getattr__	../tablib/packages/markup3.py	/^    def __getattr__( self, attr ):$/;"	kind:member	line:184
+__getattr__	../tablib/packages/markup3.py	/^    def __getattr__( self, attr ):$/;"	kind:member	line:346
+__getitem__	../tablib/core.py	/^    def __getitem__(self, i):$/;"	kind:member	line:50
+__getitem__	../tablib/core.py	/^    def __getitem__(self, key):$/;"	kind:member	line:180
+__getitem__	../tablib/packages/dbfpy/dbf.py	/^    def __getitem__(self, index):$/;"	kind:member	line:242
+__getitem__	../tablib/packages/dbfpy/header.py	/^    def __getitem__(self, item):$/;"	kind:function	line:262
+__getitem__	../tablib/packages/dbfpy/record.py	/^    def __getitem__(self, key):$/;"	kind:member	line:246
+__getitem__	../tablib/packages/dbfpy3/dbf.py	/^    def __getitem__(self, index):$/;"	kind:member	line:243
+__getitem__	../tablib/packages/dbfpy3/header.py	/^    def __getitem__(self, item):$/;"	kind:function	line:260
+__getitem__	../tablib/packages/dbfpy3/record.py	/^    def __getitem__(self, key):$/;"	kind:member	line:250
+__getslice__	../tablib/core.py	/^    def __getslice__(self, i, j):$/;"	kind:member	line:47
+__getstate__	../tablib/core.py	/^    def __getstate__(self):$/;"	kind:member	line:59
+__hash__	../tablib/packages/dbfpy/fields.py	/^    def __hash__(self):$/;"	kind:member	line:109
+__hash__	../tablib/packages/dbfpy3/fields.py	/^    def __hash__(self):$/;"	kind:member	line:110
+__init__	../tablib/core.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:159
+__init__	../tablib/core.py	/^    def __init__(self, row=list(), tags=list()):$/;"	kind:member	line:34
+__init__	../tablib/core.py	/^    def __init__(self, sets=None):$/;"	kind:member	line:1055
+__init__	../tablib/packages/dbfpy/dbf.py	/^    def __init__(self, f, readOnly=False, new=False, ignoreErrors=False):$/;"	kind:member	line:94
+__init__	../tablib/packages/dbfpy/dbfnew.py	/^    def __init__(self):$/;"	kind:member	line:111
+__init__	../tablib/packages/dbfpy/dbfnew.py	/^    def __init__(self, name, type, len=None, dec=0):$/;"	kind:member	line:63
+__init__	../tablib/packages/dbfpy/fields.py	/^    def __init__(self, name, length=None, decimalCount=None,$/;"	kind:member	line:75
+__init__	../tablib/packages/dbfpy/header.py	/^    def __init__(self, fields=None, headerLength=0, recordLength=0,$/;"	kind:member	line:61
+__init__	../tablib/packages/dbfpy/record.py	/^    def __init__(self, dbf, index=None, deleted=False, data=None):$/;"	kind:member	line:57
+__init__	../tablib/packages/dbfpy3/dbf.py	/^    def __init__(self, f, readOnly=False, new=False, ignoreErrors=False):$/;"	kind:member	line:94
+__init__	../tablib/packages/dbfpy3/dbfnew.py	/^    def __init__(self):$/;"	kind:member	line:111
+__init__	../tablib/packages/dbfpy3/dbfnew.py	/^    def __init__(self, name, type, len=None, dec=0):$/;"	kind:member	line:63
+__init__	../tablib/packages/dbfpy3/fields.py	/^    def __init__(self, name, length=None, decimalCount=None,$/;"	kind:member	line:76
+__init__	../tablib/packages/dbfpy3/header.py	/^    def __init__(self, fields=None, headerLength=0, recordLength=0,$/;"	kind:member	line:58
+__init__	../tablib/packages/dbfpy3/record.py	/^    def __init__(self, dbf, index=None, deleted=False, data=None):$/;"	kind:member	line:57
+__init__	../tablib/packages/markup.py	/^    def __init__( self ):$/;"	kind:member	line:478
+__init__	../tablib/packages/markup.py	/^    def __init__( self, case='lower' ):$/;"	kind:member	line:341
+__init__	../tablib/packages/markup.py	/^    def __init__( self, mode ):$/;"	kind:member	line:474
+__init__	../tablib/packages/markup.py	/^    def __init__( self, mode='strict_html', case='lower', onetags=None, twotags=None, separator='\\n', class_=None ):$/;"	kind:member	line:113
+__init__	../tablib/packages/markup.py	/^    def __init__( self, tag ):$/;"	kind:member	line:454
+__init__	../tablib/packages/markup.py	/^    def __init__( self, tag ):$/;"	kind:member	line:458
+__init__	../tablib/packages/markup.py	/^    def __init__( self, tag ):$/;"	kind:member	line:462
+__init__	../tablib/packages/markup.py	/^    def __init__( self, tag ):$/;"	kind:member	line:470
+__init__	../tablib/packages/markup.py	/^    def __init__( self, tag, case='lower', parent=None ):$/;"	kind:member	line:29
+__init__	../tablib/packages/markup.py	/^    def __init__( self, tag, mode ):$/;"	kind:member	line:466
+__init__	../tablib/packages/markup3.py	/^    def __init__( self ):$/;"	kind:member	line:480
+__init__	../tablib/packages/markup3.py	/^    def __init__( self, case='lower' ):$/;"	kind:member	line:343
+__init__	../tablib/packages/markup3.py	/^    def __init__( self, mode ):$/;"	kind:member	line:476
+__init__	../tablib/packages/markup3.py	/^    def __init__( self, mode='strict_html', case='lower', onetags=None, twotags=None, separator='\\n', class_=None ):$/;"	kind:member	line:115
+__init__	../tablib/packages/markup3.py	/^    def __init__( self, tag ):$/;"	kind:member	line:456
+__init__	../tablib/packages/markup3.py	/^    def __init__( self, tag ):$/;"	kind:member	line:460
+__init__	../tablib/packages/markup3.py	/^    def __init__( self, tag ):$/;"	kind:member	line:464
+__init__	../tablib/packages/markup3.py	/^    def __init__( self, tag ):$/;"	kind:member	line:472
+__init__	../tablib/packages/markup3.py	/^    def __init__( self, tag, case='lower', parent=None ):$/;"	kind:member	line:29
+__init__	../tablib/packages/markup3.py	/^    def __init__( self, tag, mode ):$/;"	kind:member	line:468
+__init__	../tablib/packages/ordereddict.py	/^    def __init__(self, *args, **kwds):$/;"	kind:member	line:27
+__init__.py	../docs/__init__.py	1;"	kind:file	line:1
+__init__.py	../tablib/__init__.py	1;"	kind:file	line:1
+__init__.py	../tablib/formats/__init__.py	1;"	kind:file	line:1
+__init__.py	../tablib/packages/__init__.py	1;"	kind:file	line:1
+__init__.py	../tablib/packages/dbfpy/__init__.py	1;"	kind:file	line:1
+__init__.py	../tablib/packages/dbfpy3/__init__.py	1;"	kind:file	line:1
+__int__	../tablib/packages/dbfpy/utils.py	/^    def __int__(self):$/;"	kind:member	line:151
+__int__	../tablib/packages/dbfpy3/utils.py	/^    def __int__(self):$/;"	kind:member	line:151
+__iter__	../tablib/core.py	/^    def __iter__(self):$/;"	kind:member	line:38
+__iter__	../tablib/packages/ordereddict.py	/^    def __iter__(self):$/;"	kind:member	line:55
+__len__	../tablib/core.py	/^    def __len__(self):$/;"	kind:member	line:176
+__len__	../tablib/core.py	/^    def __len__(self):$/;"	kind:member	line:41
+__len__	../tablib/packages/dbfpy/dbf.py	/^    def __len__(self):$/;"	kind:member	line:238
+__len__	../tablib/packages/dbfpy3/dbf.py	/^    def __len__(self):$/;"	kind:member	line:239
+__license__	../tablib/core.py	/^__license__ = 'MIT'$/;"	kind:variable	line:24
+__long__	../tablib/packages/dbfpy/utils.py	/^    __long__ = __int__$/;"	kind:variable	line:153
+__long__	../tablib/packages/dbfpy3/utils.py	/^    __long__ = __int__$/;"	kind:variable	line:153
+__ne__	../tablib/packages/dbfpy/utils.py	/^    def __ne__(self, other):$/;"	kind:member	line:145
+__ne__	../tablib/packages/dbfpy3/utils.py	/^    def __ne__(self, other):$/;"	kind:member	line:145
+__ne__	../tablib/packages/ordereddict.py	/^    def __ne__(self, other):$/;"	kind:member	line:126
+__nonzero__	../tablib/packages/dbfpy/utils.py	/^    def __nonzero__(self):$/;"	kind:member	line:148
+__reduce__	../tablib/packages/ordereddict.py	/^    def __reduce__(self):$/;"	kind:member	line:79
+__repr__	../tablib/core.py	/^    def __repr__(self):$/;"	kind:member	line:1064
+__repr__	../tablib/core.py	/^    def __repr__(self):$/;"	kind:member	line:217
+__repr__	../tablib/core.py	/^    def __repr__(self):$/;"	kind:member	line:44
+__repr__	../tablib/packages/dbfpy/dbf.py	/^    def __repr__(self):$/;"	kind:member	line:235
+__repr__	../tablib/packages/dbfpy/fields.py	/^    def __repr__(self):$/;"	kind:member	line:154
+__repr__	../tablib/packages/dbfpy/header.py	/^    def __repr__(self):$/;"	kind:member	line:165
+__repr__	../tablib/packages/dbfpy/record.py	/^    def __repr__(self):$/;"	kind:member	line:145
+__repr__	../tablib/packages/dbfpy/utils.py	/^    def __repr__(self):$/;"	kind:member	line:164
+__repr__	../tablib/packages/dbfpy3/dbf.py	/^    def __repr__(self):$/;"	kind:member	line:236
+__repr__	../tablib/packages/dbfpy3/fields.py	/^    def __repr__(self):$/;"	kind:member	line:155
+__repr__	../tablib/packages/dbfpy3/header.py	/^    def __repr__(self):$/;"	kind:member	line:161
+__repr__	../tablib/packages/dbfpy3/record.py	/^    def __repr__(self):$/;"	kind:member	line:145
+__repr__	../tablib/packages/dbfpy3/utils.py	/^    def __repr__(self):$/;"	kind:member	line:164
+__repr__	../tablib/packages/ordereddict.py	/^    def __repr__(self):$/;"	kind:member	line:101
+__reversed__	../tablib/packages/ordereddict.py	/^    def __reversed__(self):$/;"	kind:member	line:62
+__setitem__	../tablib/core.py	/^    def __setitem__(self, i, value):$/;"	kind:member	line:53
+__setitem__	../tablib/core.py	/^    def __setitem__(self, key, value):$/;"	kind:member	line:194
+__setitem__	../tablib/packages/dbfpy/dbf.py	/^    def __setitem__(self, index, record):$/;"	kind:member	line:246
+__setitem__	../tablib/packages/dbfpy/record.py	/^    def __setitem__(self, key, value):$/;"	kind:member	line:254
+__setitem__	../tablib/packages/dbfpy3/dbf.py	/^    def __setitem__(self, index, record):$/;"	kind:member	line:247
+__setitem__	../tablib/packages/dbfpy3/record.py	/^    def __setitem__(self, key, value):$/;"	kind:member	line:258
+__setitem__	../tablib/packages/ordereddict.py	/^    def __setitem__(self, key, value):$/;"	kind:member	line:42
+__setstate__	../tablib/core.py	/^    def __setstate__(self, state):$/;"	kind:member	line:69
+__slots__	../tablib/core.py	/^    __slots__ = ['_row', 'tags']$/;"	kind:variable	line:32
+__slots__	../tablib/packages/dbfpy/dbf.py	/^    __slots__ = ("name", "header", "stream",$/;"	kind:variable	line:85
+__slots__	../tablib/packages/dbfpy/dbfnew.py	/^    __slots__ = "name", "type", "len", "dec", "cls"$/;"	kind:variable	line:46
+__slots__	../tablib/packages/dbfpy/dbfnew.py	/^    __slots__ = ("fields",)$/;"	kind:variable	line:107
+__slots__	../tablib/packages/dbfpy/fields.py	/^    __slots__ = ("name", "length", "decimalCount",$/;"	kind:variable	line:59
+__slots__	../tablib/packages/dbfpy/header.py	/^    __slots__ = ("signature", "fields", "lastUpdate", "recordLength",$/;"	kind:variable	line:56
+__slots__	../tablib/packages/dbfpy/record.py	/^    __slots__ = "dbf", "index", "deleted", "fieldData"$/;"	kind:variable	line:53
+__slots__	../tablib/packages/dbfpy3/dbf.py	/^    __slots__ = ("name", "header", "stream",$/;"	kind:variable	line:85
+__slots__	../tablib/packages/dbfpy3/dbfnew.py	/^    __slots__ = "name", "type", "len", "dec", "cls"$/;"	kind:variable	line:46
+__slots__	../tablib/packages/dbfpy3/dbfnew.py	/^    __slots__ = ("fields",)$/;"	kind:variable	line:107
+__slots__	../tablib/packages/dbfpy3/fields.py	/^    __slots__ = ("name", "decimalCount",$/;"	kind:variable	line:60
+__slots__	../tablib/packages/dbfpy3/header.py	/^    __slots__ = ("signature", "fields", "lastUpdate", "recordLength",$/;"	kind:variable	line:53
+__slots__	../tablib/packages/dbfpy3/record.py	/^    __slots__ = "dbf", "index", "deleted", "fieldData"$/;"	kind:variable	line:53
+__str__	../tablib/core.py	/^    def __str__(self):$/;"	kind:member	line:244
+__str__	../tablib/packages/dbfpy/utils.py	/^    def __str__(self):$/;"	kind:member	line:158
+__str__	../tablib/packages/dbfpy3/utils.py	/^    def __str__(self):$/;"	kind:member	line:158
+__str__	../tablib/packages/markup.py	/^    def __str__( self ):$/;"	kind:member	line:187
+__str__	../tablib/packages/markup.py	/^    def __str__( self ):$/;"	kind:member	line:450
+__str__	../tablib/packages/markup3.py	/^    def __str__( self ):$/;"	kind:member	line:189
+__str__	../tablib/packages/markup3.py	/^    def __str__( self ):$/;"	kind:member	line:452
+__title__	../tablib/core.py	/^__title__ = 'tablib'$/;"	kind:variable	line:20
+__unicode__	../tablib/core.py	/^    def __unicode__(self):$/;"	kind:member	line:223
+__unicode__	../tablib/packages/dbfpy/utils.py	/^    def __unicode__(self):$/;"	kind:member	line:161
+__unicode__	../tablib/packages/dbfpy3/utils.py	/^    def __unicode__(self):$/;"	kind:member	line:161
+__version__	../tablib/core.py	/^__version__ = '0.12.1'$/;"	kind:variable	line:21
+__version__	../tablib/packages/dbfpy/dbf.py	/^__version__ = "$Revision: 1.7 $"[11:-2]$/;"	kind:variable	line:59
+__version__	../tablib/packages/dbfpy/dbfnew.py	/^__version__ = "$Revision: 1.4 $"[11:-2]$/;"	kind:variable	line:22
+__version__	../tablib/packages/dbfpy/fields.py	/^__version__ = "$Revision: 1.14 $"[11:-2]$/;"	kind:variable	line:28
+__version__	../tablib/packages/dbfpy/header.py	/^__version__ = "$Revision: 1.6 $"[11:-2]$/;"	kind:variable	line:17
+__version__	../tablib/packages/dbfpy/record.py	/^__version__ = "$Revision: 1.7 $"[11:-2]$/;"	kind:variable	line:14
+__version__	../tablib/packages/dbfpy/utils.py	/^__version__ = "$Revision: 1.4 $"[11:-2]$/;"	kind:variable	line:13
+__version__	../tablib/packages/dbfpy3/dbf.py	/^__version__ = "$Revision: 1.7 $"[11:-2]$/;"	kind:variable	line:59
+__version__	../tablib/packages/dbfpy3/dbfnew.py	/^__version__ = "$Revision: 1.4 $"[11:-2]$/;"	kind:variable	line:22
+__version__	../tablib/packages/dbfpy3/fields.py	/^__version__ = "$Revision: 1.14 $"[11:-2]$/;"	kind:variable	line:28
+__version__	../tablib/packages/dbfpy3/header.py	/^__version__ = "$Revision: 1.6 $"[11:-2]$/;"	kind:variable	line:17
+__version__	../tablib/packages/dbfpy3/record.py	/^__version__ = "$Revision: 1.7 $"[11:-2]$/;"	kind:variable	line:14
+__version__	../tablib/packages/dbfpy3/utils.py	/^__version__ = "$Revision: 1.4 $"[11:-2]$/;"	kind:variable	line:13
+__version__	../tablib/packages/markup.py	/^__version__ = '1.7'$/;"	kind:variable	line:6
+__version__	../tablib/packages/markup3.py	/^__version__ = '1.7'$/;"	kind:variable	line:6
+_addField	../tablib/packages/dbfpy/header.py	/^    def _addField(self, *defs):$/;"	kind:function	line:182
+_addField	../tablib/packages/dbfpy3/header.py	/^    def _addField(self, *defs):$/;"	kind:function	line:178
+_argsdicts	../tablib/packages/markup.py	/^def _argsdicts( args, mydict ):$/;"	kind:function	line:352
+_argsdicts	../tablib/packages/markup3.py	/^def _argsdicts( args, mydict ):$/;"	kind:function	line:354
+_clean_col	../tablib/core.py	/^    def _clean_col(self, col):$/;"	kind:member	line:397
+_cmidrule	../tablib/formats/_latex.py	/^def _cmidrule(colindex, dataset_width):$/;"	kind:function	line:97
+_colspec	../tablib/formats/_latex.py	/^def _colspec(dataset_width):$/;"	kind:function	line:63
+_csv.py	../tablib/formats/_csv.py	1;"	kind:file	line:1
+_dbf.py	../tablib/formats/_dbf.py	1;"	kind:file	line:1
+_df.py	../tablib/formats/_df.py	1;"	kind:file	line:1
+_escape	../tablib/packages/markup.py	/^_escape = escape$/;"	kind:variable	line:415
+_escape	../tablib/packages/markup3.py	/^_escape = escape$/;"	kind:variable	line:417
+_escape_tex_reserved_symbols	../tablib/formats/_latex.py	/^def _escape_tex_reserved_symbols(input):$/;"	kind:function	line:127
+_fieldsRegistry	../tablib/packages/dbfpy/fields.py	/^_fieldsRegistry = {}$/;"	kind:variable	line:424
+_fieldsRegistry	../tablib/packages/dbfpy3/fields.py	/^_fieldsRegistry = {}$/;"	kind:variable	line:425
+_fixIndex	../tablib/packages/dbfpy/dbf.py	/^    def _fixIndex(self, index):$/;"	kind:member	line:166
+_fixIndex	../tablib/packages/dbfpy3/dbf.py	/^    def _fixIndex(self, index):$/;"	kind:member	line:166
+_formats	../tablib/core.py	/^    _formats = {}$/;"	kind:variable	line:1053
+_formats	../tablib/core.py	/^    _formats = {}$/;"	kind:variable	line:157
+_formatter	../test_tablib.py	/^        def _formatter(cell_value):$/;"	kind:function	line:867
+_get_column_string_lengths	../tablib/formats/_rst.py	/^def _get_column_string_lengths(dataset):$/;"	kind:function	line:49
+_get_column_widths	../tablib/formats/_rst.py	/^def _get_column_widths(dataset, max_table_width=MAX_TABLE_WIDTH, pad_len=3):$/;"	kind:function	line:101
+_get_dict	../tablib/core.py	/^    def _get_dict(self):$/;"	kind:member	line:350
+_get_headers	../tablib/core.py	/^    def _get_headers(self):$/;"	kind:member	line:327
+_html.py	../tablib/formats/_html.py	1;"	kind:file	line:1
+_json.py	../tablib/formats/_json.py	1;"	kind:file	line:1
+_latex.py	../tablib/formats/_latex.py	1;"	kind:file	line:1
+_max_word_len	../tablib/formats/_rst.py	/^def _max_word_len(text):$/;"	kind:function	line:37
+_midrule	../tablib/formats/_latex.py	/^def _midrule(dataset_width):$/;"	kind:function	line:84
+_name	../tablib/packages/dbfpy/dbf.py	/^    _name = len(sys.argv) > 1 and sys.argv[1] or "county.dbf"$/;"	kind:variable	line:293
+_name	../tablib/packages/dbfpy3/dbf.py	/^    _name = len(sys.argv) > 1 and sys.argv[1] or "county.dbf"$/;"	kind:variable	line:294
+_ods.py	../tablib/formats/_ods.py	1;"	kind:file	line:1
+_oneliner	../tablib/packages/markup.py	/^class _oneliner:$/;"	kind:class	line:336
+_oneliner	../tablib/packages/markup3.py	/^class _oneliner:$/;"	kind:class	line:338
+_package	../tablib/core.py	/^    def _package(self, dicts=True, ordered=True):$/;"	kind:member	line:290
+_package	../tablib/core.py	/^    def _package(self, ordered=True):$/;"	kind:member	line:1101
+_register_formats	../tablib/core.py	/^    def _register_formats(cls):$/;"	kind:member	line:1076
+_register_formats	../tablib/core.py	/^    def _register_formats(cls):$/;"	kind:member	line:252
+_row_to_lines	../tablib/formats/_rst.py	/^def _row_to_lines(values, widths, wrapper, sep='|', justify=JUSTIFY_LEFT):$/;"	kind:function	line:69
+_rst.py	../tablib/formats/_rst.py	1;"	kind:file	line:1
+_serialize_row	../tablib/formats/_latex.py	/^def _serialize_row(row):$/;"	kind:function	line:116
+_set_dict	../tablib/core.py	/^    def _set_dict(self, pickle):$/;"	kind:member	line:364
+_set_headers	../tablib/core.py	/^    def _set_headers(self, collection):$/;"	kind:member	line:336
+_totuple	../tablib/packages/markup.py	/^def _totuple( x ):$/;"	kind:function	line:381
+_totuple	../tablib/packages/markup3.py	/^def _totuple( x ):$/;"	kind:function	line:383
+_tsv.py	../tablib/formats/_tsv.py	1;"	kind:file	line:1
+_use_simple_table	../tablib/formats/_rst.py	/^def _use_simple_table(head0, col0, width0):$/;"	kind:function	line:197
+_validate	../tablib/core.py	/^    def _validate(self, row=None, col=None, safety=False):$/;"	kind:member	line:270
+_validateIndex	../tablib/packages/dbfpy/record.py	/^    def _validateIndex(self, allowUndefined=True, checkRange=False):$/;"	kind:member	line:183
+_validateIndex	../tablib/packages/dbfpy3/record.py	/^    def _validateIndex(self, allowUndefined=True, checkRange=False):$/;"	kind:member	line:184
+_write	../tablib/packages/dbfpy/record.py	/^    def _write(self):$/;"	kind:member	line:160
+_write	../tablib/packages/dbfpy3/record.py	/^    def _write(self):$/;"	kind:member	line:160
+_xls.py	../tablib/formats/_xls.py	1;"	kind:file	line:1
+_xlsx.py	../tablib/formats/_xlsx.py	1;"	kind:file	line:1
+_yaml.py	../tablib/formats/_yaml.py	1;"	kind:file	line:1
+add	../tablib/packages/markup.py	/^    def add( self, text ):$/;"	kind:member	line:208
+add	../tablib/packages/markup3.py	/^    def add( self, text ):$/;"	kind:member	line:210
+addField	../tablib/packages/dbfpy/dbf.py	/^    def addField(self, *defs):$/;"	kind:member	line:221
+addField	../tablib/packages/dbfpy/header.py	/^    def addField(self, *defs):$/;"	kind:function	line:215
+addField	../tablib/packages/dbfpy3/dbf.py	/^    def addField(self, *defs):$/;"	kind:member	line:222
+addField	../tablib/packages/dbfpy3/header.py	/^    def addField(self, *defs):$/;"	kind:function	line:211
+add_field	../tablib/packages/dbfpy/dbfnew.py	/^    def add_field(self, name, typ, len, dec=0):$/;"	kind:member	line:114
+add_field	../tablib/packages/dbfpy3/dbfnew.py	/^    def add_field(self, name, typ, len, dec=0):$/;"	kind:member	line:114
+add_formatter	../tablib/core.py	/^    def add_formatter(self, col, handler):$/;"	kind:member	line:837
+add_function_parentheses	../docs/conf.py	/^add_function_parentheses = True$/;"	kind:variable	line:73
+add_sheet	../tablib/core.py	/^    def add_sheet(self, dataset):$/;"	kind:member	line:1093
+addcontent	../tablib/packages/markup.py	/^    def addcontent( self, text ):$/;"	kind:member	line:220
+addcontent	../tablib/packages/markup3.py	/^    def addcontent( self, text ):$/;"	kind:member	line:222
+addfooter	../tablib/packages/markup.py	/^    def addfooter( self, text ):$/;"	kind:member	line:212
+addfooter	../tablib/packages/markup3.py	/^    def addfooter( self, text ):$/;"	kind:member	line:214
+addheader	../tablib/packages/markup.py	/^    def addheader( self, text ):$/;"	kind:member	line:216
+addheader	../tablib/packages/markup3.py	/^    def addheader( self, text ):$/;"	kind:member	line:218
+append	../tablib/core.py	/^    def append(self, row, tags=list()):$/;"	kind:member	line:678
+append	../tablib/core.py	/^    def append(self, value):$/;"	kind:member	line:78
+append	../tablib/packages/dbfpy/dbf.py	/^    def append(self, record):$/;"	kind:member	line:213
+append	../tablib/packages/dbfpy3/dbf.py	/^    def append(self, record):$/;"	kind:member	line:214
+append	../test_tablib.py	/^            def append(self, item):$/;"	kind:member	line:935
+appendToHeader	../tablib/packages/dbfpy/dbfnew.py	/^    def appendToHeader(self, dbfh):$/;"	kind:member	line:79
+appendToHeader	../tablib/packages/dbfpy3/dbfnew.py	/^    def appendToHeader(self, dbfh):$/;"	kind:member	line:79
+append_col	../tablib/core.py	/^    def append_col(self, col, header=None):$/;"	kind:member	line:819
+append_col_callable	../test_tablib.py	/^        def append_col_callable():$/;"	kind:function	line:128
+append_separator	../tablib/core.py	/^    def append_separator(self, text='-'):$/;"	kind:member	line:807
+asDict	../tablib/packages/dbfpy/record.py	/^    def asDict(self):$/;"	kind:member	line:236
+asDict	../tablib/packages/dbfpy3/record.py	/^    def asDict(self):$/;"	kind:member	line:240
+asList	../tablib/packages/dbfpy/record.py	/^    def asList(self):$/;"	kind:member	line:226
+asList	../tablib/packages/dbfpy3/record.py	/^    def asList(self):$/;"	kind:member	line:230
+author	../setup.py	/^    author='Kenneth Reitz',$/;"	kind:variable	line:55
+author_email	../setup.py	/^    author_email='me@kennethreitz.org',$/;"	kind:variable	line:56
+available	../tablib/formats/__init__.py	/^available = (json, xls, yaml, csv, dbf, tsv, html, latex, xlsx, ods, df, rst)$/;"	kind:variable	line:19
+background_color	../docs/_themes/flask_theme_support.py	/^    background_color = "#f8f8f8"$/;"	kind:variable	line:8
+basestring	../tablib/compat.py	/^    basestring = str$/;"	kind:variable	line:37
+bold	../tablib/formats/_ods.py	/^bold = style.Style(name="bold", family="paragraph")$/;"	kind:variable	line:12
+bold	../tablib/formats/_xls.py	/^bold = xlwt.easyxf("font: bold on")$/;"	kind:variable	line:19
+bytes	../tablib/compat.py	/^    bytes = bytes$/;"	kind:variable	line:36
+cell_date_format	../tablib/formats/_xlsx.py	/^cell_date_format = NamedStyle(name='date', number_format='DD\/MM\/YYYY')$/;"	kind:variable	line:26
+cell_datetime_format	../tablib/formats/_xlsx.py	/^cell_datetime_format = NamedStyle(name='datetime', number_format='DD\/MM\/YYYY HH:MM:MM')$/;"	kind:variable	line:27
+cell_string_format	../tablib/formats/_xlsx.py	/^cell_string_format = NamedStyle(name='string', number_format='@')$/;"	kind:variable	line:28
+changed	../tablib/packages/dbfpy/dbf.py	/^    changed = property(lambda self: self._changed or self.header.changed)$/;"	kind:variable	line:148
+changed	../tablib/packages/dbfpy3/dbf.py	/^    changed = property(lambda self: self._changed or self.header.changed)$/;"	kind:variable	line:148
+classifiers	../setup.py	/^    classifiers=[$/;"	kind:variable	line:60
+classproperty	../tablib/packages/dbfpy/utils.py	/^class classproperty(property):$/;"	kind:class	line:121
+classproperty	../tablib/packages/dbfpy3/utils.py	/^class classproperty(property):$/;"	kind:class	line:121
+clear	../tablib/packages/ordereddict.py	/^    def clear(self):$/;"	kind:member	line:36
+close	../tablib/packages/dbfpy/dbf.py	/^    def close(self):$/;"	kind:member	line:192
+close	../tablib/packages/dbfpy3/dbf.py	/^    def close(self):$/;"	kind:member	line:192
+close	../tablib/packages/markup.py	/^    def close( self ):$/;"	kind:member	line:91
+close	../tablib/packages/markup3.py	/^    def close( self ):$/;"	kind:member	line:93
+closed	../tablib/packages/dbfpy/dbf.py	/^    closed = property(lambda self: self.stream.closed)$/;"	kind:variable	line:143
+closed	../tablib/packages/dbfpy3/dbf.py	/^    closed = property(lambda self: self.stream.closed)$/;"	kind:variable	line:143
+compat.py	../tablib/compat.py	1;"	kind:file	line:1
+conf.py	../docs/conf.py	1;"	kind:file	line:1
+copy	../tablib/packages/ordereddict.py	/^    def copy(self):$/;"	kind:member	line:106
+core.py	../tablib/core.py	1;"	kind:file	line:1
+css	../tablib/packages/markup.py	/^    def css( self, filelist ):$/;"	kind:member	line:304
+css	../tablib/packages/markup3.py	/^    def css( self, filelist ):$/;"	kind:member	line:306
+csv	../tablib/core.py	/^    def csv():$/;"	kind:member	line:517
+d	../test.py	/^d = Dataset()$/;"	kind:variable	line:4
+date_format	../tablib/formats/_xls.py	/^date_format = xlwt.XFStyle()$/;"	kind:variable	line:21
+day	../tablib/packages/dbfpy/header.py	/^    day = property(lambda self: self.lastUpdate.day)$/;"	kind:variable	line:146
+day	../tablib/packages/dbfpy3/header.py	/^    day = property(lambda self: self.lastUpdate.day)$/;"	kind:variable	line:142
+dbf	../tablib/core.py	/^    def dbf():$/;"	kind:member	line:611
+dbf.py	../tablib/packages/dbfpy/dbf.py	1;"	kind:file	line:1
+dbf.py	../tablib/packages/dbfpy3/dbf.py	1;"	kind:file	line:1
+dbf_new	../tablib/packages/dbfpy/dbfnew.py	/^class dbf_new(object):$/;"	kind:class	line:90
+dbf_new	../tablib/packages/dbfpy3/dbfnew.py	/^class dbf_new(object):$/;"	kind:class	line:90
+dbfn	../tablib/packages/dbfpy/dbfnew.py	/^    dbfn = dbf_new()$/;"	kind:variable	line:157
+dbfn	../tablib/packages/dbfpy3/dbfnew.py	/^    dbfn = dbf_new()$/;"	kind:variable	line:151
+dbfnew.py	../tablib/packages/dbfpy/dbfnew.py	1;"	kind:file	line:1
+dbfnew.py	../tablib/packages/dbfpy3/dbfnew.py	1;"	kind:file	line:1
+dbft	../tablib/packages/dbfpy/dbfnew.py	/^    dbft = Dbf('tst.dbf', readOnly=0)$/;"	kind:variable	line:164
+dbft	../tablib/packages/dbfpy3/dbfnew.py	/^    dbft = Dbf('tst.dbf', readOnly=0)$/;"	kind:variable	line:158
+decodeFromRecord	../tablib/packages/dbfpy/fields.py	/^    def decodeFromRecord(self, record):$/;"	kind:member	line:170
+decodeFromRecord	../tablib/packages/dbfpy3/fields.py	/^    def decodeFromRecord(self, record):$/;"	kind:member	line:171
+decodeValue	../tablib/packages/dbfpy/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:180
+decodeValue	../tablib/packages/dbfpy/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:205
+decodeValue	../tablib/packages/dbfpy/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:228
+decodeValue	../tablib/packages/dbfpy/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:272
+decodeValue	../tablib/packages/dbfpy/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:287
+decodeValue	../tablib/packages/dbfpy/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:302
+decodeValue	../tablib/packages/dbfpy/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:339
+decodeValue	../tablib/packages/dbfpy/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:362
+decodeValue	../tablib/packages/dbfpy/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:398
+decodeValue	../tablib/packages/dbfpy3/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:181
+decodeValue	../tablib/packages/dbfpy3/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:206
+decodeValue	../tablib/packages/dbfpy3/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:229
+decodeValue	../tablib/packages/dbfpy3/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:273
+decodeValue	../tablib/packages/dbfpy3/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:288
+decodeValue	../tablib/packages/dbfpy3/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:303
+decodeValue	../tablib/packages/dbfpy3/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:340
+decodeValue	../tablib/packages/dbfpy3/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:363
+decodeValue	../tablib/packages/dbfpy3/fields.py	/^    def decodeValue(self, value):$/;"	kind:member	line:399
+defaultValue	../tablib/packages/dbfpy/fields.py	/^    defaultValue = " " * 10$/;"	kind:variable	line:336
+defaultValue	../tablib/packages/dbfpy/fields.py	/^    defaultValue = ""$/;"	kind:variable	line:203
+defaultValue	../tablib/packages/dbfpy/fields.py	/^    defaultValue = -1$/;"	kind:variable	line:299
+defaultValue	../tablib/packages/dbfpy/fields.py	/^    defaultValue = 0$/;"	kind:variable	line:226
+defaultValue	../tablib/packages/dbfpy/fields.py	/^    defaultValue = 0$/;"	kind:variable	line:270
+defaultValue	../tablib/packages/dbfpy/fields.py	/^    defaultValue = 0.0$/;"	kind:variable	line:285
+defaultValue	../tablib/packages/dbfpy/fields.py	/^    defaultValue = None$/;"	kind:variable	line:73
+defaultValue	../tablib/packages/dbfpy/fields.py	/^    defaultValue = utils.classproperty(lambda cls: datetime.date.today())$/;"	kind:variable	line:358
+defaultValue	../tablib/packages/dbfpy/fields.py	/^    defaultValue = utils.classproperty(lambda cls: datetime.datetime.now())$/;"	kind:variable	line:392
+defaultValue	../tablib/packages/dbfpy3/fields.py	/^    defaultValue = " " * 10$/;"	kind:variable	line:337
+defaultValue	../tablib/packages/dbfpy3/fields.py	/^    defaultValue = -1$/;"	kind:variable	line:300
+defaultValue	../tablib/packages/dbfpy3/fields.py	/^    defaultValue = 0$/;"	kind:variable	line:227
+defaultValue	../tablib/packages/dbfpy3/fields.py	/^    defaultValue = 0$/;"	kind:variable	line:271
+defaultValue	../tablib/packages/dbfpy3/fields.py	/^    defaultValue = 0.0$/;"	kind:variable	line:286
+defaultValue	../tablib/packages/dbfpy3/fields.py	/^    defaultValue = None$/;"	kind:variable	line:74
+defaultValue	../tablib/packages/dbfpy3/fields.py	/^    defaultValue = b''$/;"	kind:variable	line:204
+defaultValue	../tablib/packages/dbfpy3/fields.py	/^    defaultValue = utils.classproperty(lambda cls: datetime.date.today())$/;"	kind:variable	line:359
+defaultValue	../tablib/packages/dbfpy3/fields.py	/^    defaultValue = utils.classproperty(lambda cls: datetime.datetime.now())$/;"	kind:variable	line:393
+default_style	../docs/_themes/flask_theme_support.py	/^    default_style = ""$/;"	kind:variable	line:9
+delete	../tablib/packages/dbfpy/record.py	/^    def delete(self):$/;"	kind:member	line:215
+delete	../tablib/packages/dbfpy3/record.py	/^    def delete(self):$/;"	kind:member	line:216
+demo_create	../tablib/packages/dbfpy/dbf.py	/^def demo_create(filename):$/;"	kind:function	line:266
+demo_create	../tablib/packages/dbfpy3/dbf.py	/^def demo_create(filename):$/;"	kind:function	line:267
+demo_read	../tablib/packages/dbfpy/dbf.py	/^def demo_read(filename):$/;"	kind:function	line:258
+demo_read	../tablib/packages/dbfpy3/dbf.py	/^def demo_read(filename):$/;"	kind:function	line:259
+description	../setup.py	/^    description='Format agnostic tabular data library (XLS, JSON, YAML, CSV)',$/;"	kind:variable	line:52
+detect	../tablib/formats/_csv.py	/^def detect(stream, delimiter=DEFAULT_DELIMITER):$/;"	kind:function	line:58
+detect	../tablib/formats/_dbf.py	/^def detect(stream):$/;"	kind:function	line:75
+detect	../tablib/formats/_df.py	/^def detect(stream):$/;"	kind:function	line:25
+detect	../tablib/formats/_json.py	/^def detect(stream):$/;"	kind:function	line:53
+detect	../tablib/formats/_tsv.py	/^def detect(stream):$/;"	kind:function	line:28
+detect	../tablib/formats/_xls.py	/^def detect(stream):$/;"	kind:function	line:25
+detect	../tablib/formats/_xlsx.py	/^def detect(stream):$/;"	kind:function	line:35
+detect	../tablib/formats/_yaml.py	/^def detect(stream):$/;"	kind:function	line:43
+detect_format	../tablib/core.py	/^def detect_format(stream):$/;"	kind:function	line:1153
+df	../tablib/core.py	/^    def df():$/;"	kind:member	line:574
+dict	../tablib/core.py	/^    dict = property(_get_dict, _set_dict)$/;"	kind:variable	line:394
+doctype	../tablib/packages/markup.py	/^doctype = dummy( )$/;"	kind:variable	line:436
+doctype	../tablib/packages/markup3.py	/^doctype = dummy( )$/;"	kind:variable	line:438
+dset_sheet	../tablib/formats/_ods.py	/^def dset_sheet(dataset, ws):$/;"	kind:function	line:47
+dset_sheet	../tablib/formats/_xls.py	/^def dset_sheet(dataset, ws):$/;"	kind:function	line:109
+dset_sheet	../tablib/formats/_xlsx.py	/^def dset_sheet(dataset, ws, freeze_panes=True):$/;"	kind:function	line:114
+dummy	../tablib/packages/markup.py	/^class dummy:$/;"	kind:class	line:432
+dummy	../tablib/packages/markup3.py	/^class dummy:$/;"	kind:class	line:434
+element	../tablib/packages/markup.py	/^class element:$/;"	kind:class	line:26
+element	../tablib/packages/markup3.py	/^class element:$/;"	kind:class	line:26
+encodeValue	../tablib/packages/dbfpy/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:190
+encodeValue	../tablib/packages/dbfpy/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:213
+encodeValue	../tablib/packages/dbfpy/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:248
+encodeValue	../tablib/packages/dbfpy/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:276
+encodeValue	../tablib/packages/dbfpy/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:291
+encodeValue	../tablib/packages/dbfpy/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:313
+encodeValue	../tablib/packages/dbfpy/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:344
+encodeValue	../tablib/packages/dbfpy/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:369
+encodeValue	../tablib/packages/dbfpy/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:411
+encodeValue	../tablib/packages/dbfpy3/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:191
+encodeValue	../tablib/packages/dbfpy3/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:214
+encodeValue	../tablib/packages/dbfpy3/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:249
+encodeValue	../tablib/packages/dbfpy3/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:277
+encodeValue	../tablib/packages/dbfpy3/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:292
+encodeValue	../tablib/packages/dbfpy3/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:314
+encodeValue	../tablib/packages/dbfpy3/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:345
+encodeValue	../tablib/packages/dbfpy3/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:370
+encodeValue	../tablib/packages/dbfpy3/fields.py	/^    def encodeValue(self, value):$/;"	kind:member	line:412
+errors	../setup.py	/^    errors = os.system('py.test test_tablib.py')$/;"	kind:variable	line:25
+escape	../tablib/packages/markup.py	/^def escape( text, newline=False ):$/;"	kind:function	line:395
+escape	../tablib/packages/markup3.py	/^def escape( text, newline=False ):$/;"	kind:function	line:397
+exclude_patterns	../docs/conf.py	/^exclude_patterns = ['_build']$/;"	kind:variable	line:67
+export	../tablib/core.py	/^    def export(self, format, **kwargs):$/;"	kind:member	line:1140
+export	../tablib/core.py	/^    def export(self, format, **kwargs):$/;"	kind:member	line:457
+export_book	../tablib/formats/_html.py	/^def export_book(databook):$/;"	kind:function	line:56
+export_book	../tablib/formats/_json.py	/^def export_book(databook):$/;"	kind:function	line:30
+export_book	../tablib/formats/_ods.py	/^def export_book(databook):$/;"	kind:function	line:30
+export_book	../tablib/formats/_rst.py	/^def export_book(databook):$/;"	kind:function	line:265
+export_book	../tablib/formats/_xls.py	/^def export_book(databook):$/;"	kind:function	line:57
+export_book	../tablib/formats/_xlsx.py	/^def export_book(databook, freeze_panes=True):$/;"	kind:function	line:57
+export_book	../tablib/formats/_yaml.py	/^def export_book(databook):$/;"	kind:function	line:19
+export_set	../tablib/formats/_csv.py	/^def export_set(dataset, **kwargs):$/;"	kind:function	line:17
+export_set	../tablib/formats/_dbf.py	/^def export_set(dataset):$/;"	kind:function	line:29
+export_set	../tablib/formats/_df.py	/^def export_set(dset, index=None):$/;"	kind:function	line:36
+export_set	../tablib/formats/_html.py	/^def export_set(dataset):$/;"	kind:function	line:25
+export_set	../tablib/formats/_json.py	/^def export_set(dataset):$/;"	kind:function	line:25
+export_set	../tablib/formats/_latex.py	/^def export_set(dataset):$/;"	kind:function	line:47
+export_set	../tablib/formats/_ods.py	/^def export_set(dataset):$/;"	kind:function	line:15
+export_set	../tablib/formats/_rst.py	/^def export_set(dataset, **kwargs):$/;"	kind:function	line:219
+export_set	../tablib/formats/_tsv.py	/^def export_set(dataset):$/;"	kind:function	line:18
+export_set	../tablib/formats/_xls.py	/^def export_set(dataset, **kwargs):$/;"	kind:function	line:44
+export_set	../tablib/formats/_xlsx.py	/^def export_set(dataset, freeze_panes=True, **kwargs):$/;"	kind:function	line:43
+export_set	../tablib/formats/_yaml.py	/^def export_set(dataset):$/;"	kind:function	line:13
+export_set_as_grid_table	../tablib/formats/_rst.py	/^def export_set_as_grid_table(dataset, column_widths=None):$/;"	kind:function	line:147
+export_set_as_simple_table	../tablib/formats/_rst.py	/^def export_set_as_simple_table(dataset, column_widths=None):$/;"	kind:function	line:120
+extend	../tablib/core.py	/^    def extend(self, rows, tags=list()):$/;"	kind:member	line:685
+extensions	../docs/conf.py	/^extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo', 'sphinx.ext.coverage', 'sphinx.ext.viewcode']$/;"	kind:variable	line:28
+extensions	../tablib/formats/_csv.py	/^extensions = ('csv',)$/;"	kind:variable	line:10
+extensions	../tablib/formats/_dbf.py	/^extensions = ('csv',)$/;"	kind:variable	line:25
+extensions	../tablib/formats/_df.py	/^extensions = ('df', )$/;"	kind:variable	line:23
+extensions	../tablib/formats/_html.py	/^extensions = ('html', )$/;"	kind:variable	line:22
+extensions	../tablib/formats/_json.py	/^extensions = ('json', 'jsn')$/;"	kind:variable	line:13
+extensions	../tablib/formats/_latex.py	/^extensions = ('tex',)$/;"	kind:variable	line:12
+extensions	../tablib/formats/_ods.py	/^extensions = ('ods',)$/;"	kind:variable	line:10
+extensions	../tablib/formats/_rst.py	/^extensions = ('rst',)$/;"	kind:variable	line:19
+extensions	../tablib/formats/_tsv.py	/^extensions = ('tsv',)$/;"	kind:variable	line:13
+extensions	../tablib/formats/_xls.py	/^extensions = ('xls',)$/;"	kind:variable	line:15
+extensions	../tablib/formats/_xlsx.py	/^extensions = ('xlsx',)$/;"	kind:variable	line:32
+extensions	../tablib/formats/_yaml.py	/^extensions = ('yaml', 'yml')$/;"	kind:variable	line:10
+extras_require	../setup.py	/^    extras_require={$/;"	kind:variable	line:73
+fieldDefs	../tablib/packages/dbfpy/dbf.py	/^    fieldDefs = property(lambda self: self.header.fields)$/;"	kind:variable	line:147
+fieldDefs	../tablib/packages/dbfpy3/dbf.py	/^    fieldDefs = property(lambda self: self.header.fields)$/;"	kind:variable	line:147
+fieldInfo	../tablib/packages/dbfpy/fields.py	/^    def fieldInfo(self):$/;"	kind:member	line:157
+fieldInfo	../tablib/packages/dbfpy3/fields.py	/^    def fieldInfo(self):$/;"	kind:member	line:158
+fieldNames	../tablib/packages/dbfpy/dbf.py	/^    fieldNames = property($/;"	kind:variable	line:145
+fieldNames	../tablib/packages/dbfpy3/dbf.py	/^    fieldNames = property($/;"	kind:variable	line:145
+fields.py	../tablib/packages/dbfpy/fields.py	1;"	kind:file	line:1
+fields.py	../tablib/packages/dbfpy3/fields.py	1;"	kind:file	line:1
+filter	../tablib/core.py	/^    def filter(self, tag):$/;"	kind:member	line:860
+flask_theme_support.py	../docs/_themes/flask_theme_support.py	1;"	kind:file	line:1
+flush	../tablib/packages/dbfpy/dbf.py	/^    def flush(self):$/;"	kind:member	line:196
+flush	../tablib/packages/dbfpy3/dbf.py	/^    def flush(self):$/;"	kind:member	line:196
+fromStream	../tablib/packages/dbfpy/header.py	/^    def fromStream(cls, stream):$/;"	kind:member	line:109
+fromStream	../tablib/packages/dbfpy/header.py	/^    fromStream = classmethod(fromStream)$/;"	kind:variable	line:140
+fromStream	../tablib/packages/dbfpy/record.py	/^    def fromStream(cls, dbf, index):$/;"	kind:member	line:108
+fromStream	../tablib/packages/dbfpy/record.py	/^    fromStream = classmethod(fromStream)$/;"	kind:variable	line:122
+fromStream	../tablib/packages/dbfpy3/header.py	/^    def fromStream(cls, stream):$/;"	kind:member	line:106
+fromStream	../tablib/packages/dbfpy3/header.py	/^    fromStream = classmethod(fromStream)$/;"	kind:variable	line:136
+fromStream	../tablib/packages/dbfpy3/record.py	/^    def fromStream(cls, dbf, index):$/;"	kind:member	line:108
+fromStream	../tablib/packages/dbfpy3/record.py	/^    fromStream = classmethod(fromStream)$/;"	kind:variable	line:122
+fromString	../tablib/packages/dbfpy/fields.py	/^    def fromString(cls, string, start, ignoreErrors=False):$/;"	kind:member	line:112
+fromString	../tablib/packages/dbfpy/fields.py	/^    fromString = classmethod(fromString)$/;"	kind:variable	line:129
+fromString	../tablib/packages/dbfpy/header.py	/^    def fromString(cls, string):$/;"	kind:member	line:103
+fromString	../tablib/packages/dbfpy/header.py	/^    fromString = classmethod(fromString)$/;"	kind:variable	line:106
+fromString	../tablib/packages/dbfpy/record.py	/^    def fromString(cls, dbf, string, index=None):$/;"	kind:member	line:124
+fromString	../tablib/packages/dbfpy/record.py	/^    fromString = classmethod(fromString)$/;"	kind:variable	line:141
+fromString	../tablib/packages/dbfpy3/fields.py	/^    def fromString(cls, string, start, ignoreErrors=False):$/;"	kind:member	line:113
+fromString	../tablib/packages/dbfpy3/fields.py	/^    fromString = classmethod(fromString)$/;"	kind:variable	line:130
+fromString	../tablib/packages/dbfpy3/header.py	/^    def fromString(cls, string):$/;"	kind:member	line:100
+fromString	../tablib/packages/dbfpy3/header.py	/^    fromString = classmethod(fromString)$/;"	kind:variable	line:103
+fromString	../tablib/packages/dbfpy3/record.py	/^    def fromString(cls, dbf, string, index=None):$/;"	kind:member	line:124
+fromString	../tablib/packages/dbfpy3/record.py	/^    fromString = classmethod(fromString)$/;"	kind:variable	line:141
+fromkeys	../tablib/packages/ordereddict.py	/^    def fromkeys(cls, iterable, value=None):$/;"	kind:member	line:110
+getDate	../tablib/packages/dbfpy/utils.py	/^def getDate(date=None):$/;"	kind:function	line:33
+getDate	../tablib/packages/dbfpy3/utils.py	/^def getDate(date=None):$/;"	kind:function	line:33
+getDateTime	../tablib/packages/dbfpy/utils.py	/^def getDateTime(value=None):$/;"	kind:function	line:79
+getDateTime	../tablib/packages/dbfpy3/utils.py	/^def getDateTime(value=None):$/;"	kind:function	line:79
+getDbfField	../tablib/packages/dbfpy/dbfnew.py	/^    def getDbfField(self):$/;"	kind:member	line:75
+getDbfField	../tablib/packages/dbfpy3/dbfnew.py	/^    def getDbfField(self):$/;"	kind:member	line:75
+get_col	../tablib/core.py	/^    def get_col(self, index):$/;"	kind:member	line:827
+get_column_letter	../tablib/formats/_xlsx.py	/^get_column_letter = openpyxl.utils.get_column_letter$/;"	kind:variable	line:22
+has_tag	../tablib/core.py	/^    def has_tag(self, tag):$/;"	kind:member	line:97
+header.py	../tablib/packages/dbfpy/header.py	1;"	kind:file	line:1
+header.py	../tablib/packages/dbfpy3/header.py	1;"	kind:file	line:1
+headers	../tablib/core.py	/^    headers = property(_get_headers, _set_headers)$/;"	kind:variable	line:347
+height	../tablib/core.py	/^    def height(self):$/;"	kind:member	line:416
+html	../tablib/core.py	/^    def html():$/;"	kind:member	line:602
+html_show_sourcelink	../docs/conf.py	/^html_show_sourcelink = True$/;"	kind:variable	line:154
+html_show_sphinx	../docs/conf.py	/^html_show_sphinx = False$/;"	kind:variable	line:157
+html_sidebars	../docs/conf.py	/^html_sidebars = {$/;"	kind:variable	line:134
+html_static_path	../docs/conf.py	/^html_static_path = ['static']$/;"	kind:variable	line:123
+html_theme	../docs/conf.py	/^html_theme = 'default'$/;"	kind:variable	line:94
+html_theme	../docs/conf.py	/^html_theme = 'kr'/;"	kind:variable	line:238
+html_theme_path	../docs/conf.py	/^html_theme_path = ['_themes']$/;"	kind:variable	line:237
+html_use_smartypants	../docs/conf.py	/^html_use_smartypants = True$/;"	kind:variable	line:131
+htmlhelp_basename	../docs/conf.py	/^htmlhelp_basename = 'Tablibdoc'$/;"	kind:variable	line:171
+ifilter	../tablib/compat.py	/^    ifilter = filter$/;"	kind:variable	line:34
+ignoreErrors	../tablib/packages/dbfpy/dbf.py	/^    def ignoreErrors(self, value):$/;"	kind:member	line:150
+ignoreErrors	../tablib/packages/dbfpy/dbf.py	/^    ignoreErrors = property($/;"	kind:variable	line:154
+ignoreErrors	../tablib/packages/dbfpy/header.py	/^    def ignoreErrors(self, value):$/;"	kind:member	line:148
+ignoreErrors	../tablib/packages/dbfpy/header.py	/^    ignoreErrors = property($/;"	kind:variable	line:153
+ignoreErrors	../tablib/packages/dbfpy3/dbf.py	/^    def ignoreErrors(self, value):$/;"	kind:member	line:150
+ignoreErrors	../tablib/packages/dbfpy3/dbf.py	/^    ignoreErrors = property($/;"	kind:variable	line:154
+ignoreErrors	../tablib/packages/dbfpy3/header.py	/^    def ignoreErrors(self, value):$/;"	kind:member	line:144
+ignoreErrors	../tablib/packages/dbfpy3/header.py	/^    ignoreErrors = property($/;"	kind:variable	line:149
+import_book	../tablib/core.py	/^def import_book(stream, format=None, **kwargs):$/;"	kind:function	line:1168
+import_book	../tablib/formats/_json.py	/^def import_book(dbook, in_stream):$/;"	kind:function	line:42
+import_book	../tablib/formats/_xls.py	/^def import_book(dbook, in_stream, headers=True):$/;"	kind:function	line:89
+import_book	../tablib/formats/_xlsx.py	/^def import_book(dbook, in_stream, headers=True):$/;"	kind:function	line:93
+import_book	../tablib/formats/_yaml.py	/^def import_book(dbook, in_stream):$/;"	kind:function	line:31
+import_set	../tablib/core.py	/^def import_set(stream, format=None, **kwargs):$/;"	kind:function	line:1162
+import_set	../tablib/formats/_csv.py	/^def import_set(dset, in_stream, headers=True, **kwargs):$/;"	kind:function	line:40
+import_set	../tablib/formats/_dbf.py	/^def import_set(dset, in_stream, headers=True):$/;"	kind:function	line:62
+import_set	../tablib/formats/_df.py	/^def import_set(dset, in_stream):$/;"	kind:function	line:46
+import_set	../tablib/formats/_json.py	/^def import_set(dset, in_stream):$/;"	kind:function	line:35
+import_set	../tablib/formats/_tsv.py	/^def import_set(dset, in_stream, headers=True):$/;"	kind:function	line:23
+import_set	../tablib/formats/_xls.py	/^def import_set(dset, in_stream, headers=True):$/;"	kind:function	line:73
+import_set	../tablib/formats/_xlsx.py	/^def import_set(dset, in_stream, headers=True):$/;"	kind:function	line:75
+import_set	../tablib/formats/_yaml.py	/^def import_set(dset, in_stream):$/;"	kind:function	line:24
+indexOfFieldName	../tablib/packages/dbfpy/dbf.py	/^    def indexOfFieldName(self, name):$/;"	kind:member	line:204
+indexOfFieldName	../tablib/packages/dbfpy3/dbf.py	/^    def indexOfFieldName(self, name):$/;"	kind:member	line:204
+init	../tablib/packages/markup.py	/^    def init( self, lang='en', css=None, metainfo=None, title=None, header=None,$/;"	kind:member	line:225
+init	../tablib/packages/markup3.py	/^    def init( self, lang='en', css=None, metainfo=None, title=None, header=None,$/;"	kind:member	line:227
+insert	../tablib/core.py	/^    def insert(self, index, row, tags=list()):$/;"	kind:member	line:649
+insert	../tablib/core.py	/^    def insert(self, index, value):$/;"	kind:member	line:81
+insert_col	../tablib/core.py	/^    def insert_col(self, index, col=None, header=None):$/;"	kind:member	line:722
+insert_separator	../tablib/core.py	/^    def insert_separator(self, index, text='-'):$/;"	kind:member	line:800
+install	../setup.py	/^install = [$/;"	kind:variable	line:35
+install_requires	../setup.py	/^    install_requires=install,$/;"	kind:variable	line:72
+is_py3	../tablib/compat.py	/^is_py3 = (sys.version_info[0] > 2)$/;"	kind:variable	line:13
+items	../tablib/packages/ordereddict.py	/^    items = DictMixin.items$/;"	kind:variable	line:96
+iteritems	../tablib/packages/ordereddict.py	/^    iteritems = DictMixin.iteritems$/;"	kind:variable	line:99
+iterkeys	../tablib/packages/ordereddict.py	/^    iterkeys = DictMixin.iterkeys$/;"	kind:variable	line:97
+itervalues	../tablib/packages/ordereddict.py	/^    itervalues = DictMixin.itervalues$/;"	kind:variable	line:98
+json	../tablib/core.py	/^    def json():$/;"	kind:member	line:587
+keys	../tablib/packages/ordereddict.py	/^    def keys(self):$/;"	kind:member	line:89
+latex	../tablib/core.py	/^    def latex():$/;"	kind:member	line:636
+latex_additional_files	../docs/conf.py	/^latex_additional_files = ['krstyle.sty']$/;"	kind:variable	line:199
+latex_documents	../docs/conf.py	/^latex_documents = [$/;"	kind:variable	line:184
+latex_elements	../docs/conf.py	/^latex_elements = {$/;"	kind:variable	line:191
+latex_use_modindex	../docs/conf.py	/^latex_use_modindex = False$/;"	kind:variable	line:189
+latex_use_parts	../docs/conf.py	/^latex_use_parts = True$/;"	kind:variable	line:197
+length	../tablib/packages/dbfpy/fields.py	/^    length = 1$/;"	kind:variable	line:300
+length	../tablib/packages/dbfpy/fields.py	/^    length = 10$/;"	kind:variable	line:337
+length	../tablib/packages/dbfpy/fields.py	/^    length = 4$/;"	kind:variable	line:269
+length	../tablib/packages/dbfpy/fields.py	/^    length = 8$/;"	kind:variable	line:284
+length	../tablib/packages/dbfpy/fields.py	/^    length = 8$/;"	kind:variable	line:360
+length	../tablib/packages/dbfpy/fields.py	/^    length = 8$/;"	kind:variable	line:396
+length	../tablib/packages/dbfpy/fields.py	/^    length = None$/;"	kind:variable	line:64
+length	../tablib/packages/dbfpy3/fields.py	/^    length = 1$/;"	kind:variable	line:301
+length	../tablib/packages/dbfpy3/fields.py	/^    length = 10$/;"	kind:variable	line:338
+length	../tablib/packages/dbfpy3/fields.py	/^    length = 4$/;"	kind:variable	line:270
+length	../tablib/packages/dbfpy3/fields.py	/^    length = 8$/;"	kind:variable	line:285
+length	../tablib/packages/dbfpy3/fields.py	/^    length = 8$/;"	kind:variable	line:361
+length	../tablib/packages/dbfpy3/fields.py	/^    length = 8$/;"	kind:variable	line:397
+length	../tablib/packages/dbfpy3/fields.py	/^    length = None$/;"	kind:variable	line:65
+license	../setup.py	/^    license='MIT',$/;"	kind:variable	line:59
+list	../tablib/core.py	/^    def list(self):$/;"	kind:member	line:93
+load	../tablib/core.py	/^    def load(self, format, in_stream, **kwargs):$/;"	kind:member	line:1123
+load	../tablib/core.py	/^    def load(self, in_stream, format=None, **kwargs):$/;"	kind:member	line:438
+long_description	../setup.py	/^    long_description=(open('README.rst').read() + '\\n\\n' +$/;"	kind:variable	line:53
+lookupFor	../tablib/packages/dbfpy/fields.py	/^def lookupFor(typeCode):$/;"	kind:function	line:441
+lookupFor	../tablib/packages/dbfpy3/fields.py	/^def lookupFor(typeCode):$/;"	kind:function	line:442
+lpop	../tablib/core.py	/^    def lpop(self):$/;"	kind:member	line:694
+lpush	../tablib/core.py	/^    def lpush(self, row, tags=list()):$/;"	kind:member	line:670
+lpush	../tablib/core.py	/^    def lpush(self, value):$/;"	kind:member	line:75
+lpush_col	../tablib/core.py	/^    def lpush_col(self, col, header=None):$/;"	kind:member	line:792
+man_pages	../docs/conf.py	/^man_pages = [$/;"	kind:variable	line:231
+markup.py	../tablib/packages/markup.py	1;"	kind:file	line:1
+markup3.py	../tablib/packages/markup3.py	1;"	kind:file	line:1
+master_doc	../docs/conf.py	/^master_doc = 'index'$/;"	kind:variable	line:40
+median	../tablib/packages/statistics.py	/^def median(data):$/;"	kind:function	line:4
+metainfo	../tablib/packages/markup.py	/^    def metainfo( self, mydict ):$/;"	kind:member	line:314
+metainfo	../tablib/packages/markup3.py	/^    def metainfo( self, mydict ):$/;"	kind:member	line:316
+month	../tablib/packages/dbfpy/header.py	/^    month = property(lambda self: self.lastUpdate.month)$/;"	kind:variable	line:145
+month	../tablib/packages/dbfpy3/header.py	/^    month = property(lambda self: self.lastUpdate.month)$/;"	kind:variable	line:141
+name	../setup.py	/^    name='tablib',$/;"	kind:variable	line:50
+newRecord	../tablib/packages/dbfpy/dbf.py	/^    def newRecord(self):$/;"	kind:member	line:209
+newRecord	../tablib/packages/dbfpy3/dbf.py	/^    def newRecord(self):$/;"	kind:member	line:210
+ods	../tablib/core.py	/^    def ods():$/;"	kind:member	line:504
+oneliner	../tablib/packages/markup.py	/^oneliner = _oneliner( case='lower' )$/;"	kind:variable	line:349
+oneliner	../tablib/packages/markup3.py	/^oneliner = _oneliner( case='lower' )$/;"	kind:variable	line:351
+open	../tablib/packages/markup.py	/^    def open( self, **kwargs ):$/;"	kind:member	line:101
+open	../tablib/packages/markup3.py	/^    def open( self, **kwargs ):$/;"	kind:member	line:103
+ordereddict.py	../tablib/packages/ordereddict.py	1;"	kind:file	line:1
+packages	../setup.py	/^    packages=packages,$/;"	kind:variable	line:58
+packages	../setup.py	/^packages = [$/;"	kind:variable	line:28
+page	../tablib/packages/markup.py	/^class page:$/;"	kind:class	line:109
+page	../tablib/packages/markup3.py	/^class page:$/;"	kind:class	line:111
+pop	../tablib/core.py	/^    def pop(self):$/;"	kind:member	line:712
+pop	../tablib/packages/ordereddict.py	/^    pop = DictMixin.pop$/;"	kind:variable	line:94
+popitem	../tablib/packages/ordereddict.py	/^    def popitem(self, last=True):$/;"	kind:member	line:69
+position	../tablib/packages/dbfpy/record.py	/^        self.index * self.dbf.header.recordLength)$/;"	kind:variable	line:85
+position	../tablib/packages/dbfpy3/record.py	/^        self.index * self.dbf.header.recordLength)$/;"	kind:variable	line:85
+project	../docs/conf.py	/^project = u'Tablib'$/;"	kind:variable	line:43
+pygments_style	../docs/conf.py	/^pygments_style = 'flask_theme_support.FlaskyStyle'$/;"	kind:variable	line:84
+rawFromRecord	../tablib/packages/dbfpy/fields.py	/^    def rawFromRecord(self, record):$/;"	kind:member	line:166
+rawFromRecord	../tablib/packages/dbfpy3/fields.py	/^    def rawFromRecord(self, record):$/;"	kind:member	line:167
+rawFromStream	../tablib/packages/dbfpy/record.py	/^    def rawFromStream(cls, dbf, index):$/;"	kind:member	line:87
+rawFromStream	../tablib/packages/dbfpy/record.py	/^    rawFromStream = classmethod(rawFromStream)$/;"	kind:variable	line:106
+rawFromStream	../tablib/packages/dbfpy3/record.py	/^    def rawFromStream(cls, dbf, index):$/;"	kind:member	line:87
+rawFromStream	../tablib/packages/dbfpy3/record.py	/^    rawFromStream = classmethod(rawFromStream)$/;"	kind:variable	line:106
+rec	../tablib/packages/dbfpy/dbfnew.py	/^    rec = DbfRecord(dbft)$/;"	kind:variable	line:167
+rec	../tablib/packages/dbfpy/dbfnew.py	/^    rec = DbfRecord(dbft)$/;"	kind:variable	line:173
+rec	../tablib/packages/dbfpy3/dbfnew.py	/^    rec = DbfRecord(dbft)$/;"	kind:variable	line:161
+rec	../tablib/packages/dbfpy3/dbfnew.py	/^    rec = DbfRecord(dbft)$/;"	kind:variable	line:167
+record.py	../tablib/packages/dbfpy/record.py	1;"	kind:file	line:1
+record.py	../tablib/packages/dbfpy3/record.py	1;"	kind:file	line:1
+recordCount	../tablib/packages/dbfpy/dbf.py	/^    recordCount = property(lambda self: self.header.recordCount)$/;"	kind:variable	line:144
+recordCount	../tablib/packages/dbfpy3/dbf.py	/^    recordCount = property(lambda self: self.header.recordCount)$/;"	kind:variable	line:144
+registerField	../tablib/packages/dbfpy/fields.py	/^def registerField(fieldCls):$/;"	kind:function	line:426
+registerField	../tablib/packages/dbfpy3/fields.py	/^def registerField(fieldCls):$/;"	kind:function	line:427
+release	../docs/conf.py	/^release = version$/;"	kind:variable	line:53
+remove_duplicates	../tablib/core.py	/^    def remove_duplicates(self):$/;"	kind:member	line:995
+render	../tablib/packages/markup.py	/^    def render( self, tag, single, between, kwargs ):$/;"	kind:member	line:67
+render	../tablib/packages/markup3.py	/^    def render( self, tag, single, between, kwargs ):$/;"	kind:member	line:67
+replace	../tablib/formats/_latex.py	/^    def replace(match):$/;"	kind:function	line:132
+rpop	../tablib/core.py	/^    def rpop(self):$/;"	kind:member	line:703
+rpush	../tablib/core.py	/^    def rpush(self, row, tags=list()):$/;"	kind:member	line:662
+rpush	../tablib/core.py	/^    def rpush(self, value):$/;"	kind:member	line:72
+rpush_col	../tablib/core.py	/^    def rpush_col(self, col, header=None):$/;"	kind:member	line:784
+russell	../tablib/packages/markup.py	/^class russell:$/;"	kind:class	line:441
+russell	../tablib/packages/markup3.py	/^class russell:$/;"	kind:class	line:443
+scripts	../tablib/packages/markup.py	/^    def scripts( self, mydict ):$/;"	kind:member	line:325
+scripts	../tablib/packages/markup3.py	/^    def scripts( self, mydict ):$/;"	kind:member	line:327
+serialize_objects_handler	../tablib/formats/_json.py	/^def serialize_objects_handler(obj):$/;"	kind:function	line:16
+setCurrentDate	../tablib/packages/dbfpy/header.py	/^    def setCurrentDate(self):$/;"	kind:function	line:258
+setCurrentDate	../tablib/packages/dbfpy3/header.py	/^    def setCurrentDate(self):$/;"	kind:function	line:256
+setUp	../test_tablib.py	/^    def setUp(self):$/;"	kind:member	line:21
+set_header_callable	../test_tablib.py	/^        def set_header_callable():$/;"	kind:function	line:68
+setdefault	../tablib/packages/ordereddict.py	/^    setdefault = DictMixin.setdefault$/;"	kind:variable	line:92
+setup.py	../setup.py	1;"	kind:file	line:1
+sheets	../tablib/core.py	/^    def sheets(self):$/;"	kind:member	line:1090
+size	../tablib/core.py	/^    def size(self):$/;"	kind:member	line:1119
+sort	../tablib/core.py	/^    def sort(self, col, reverse=False):$/;"	kind:member	line:870
+source_suffix	../docs/conf.py	/^source_suffix = '.rst'$/;"	kind:variable	line:34
+stack	../tablib/core.py	/^    def stack(self, other):$/;"	kind:member	line:938
+stack_cols	../tablib/core.py	/^    def stack_cols(self, other):$/;"	kind:member	line:961
+statistics.py	../tablib/packages/statistics.py	1;"	kind:file	line:1
+store	../tablib/packages/dbfpy/record.py	/^    def store(self):$/;"	kind:member	line:201
+store	../tablib/packages/dbfpy3/record.py	/^    def store(self):$/;"	kind:member	line:202
+styles	../docs/_themes/flask_theme_support.py	/^    styles = {$/;"	kind:variable	line:11
+subset	../tablib/core.py	/^    def subset(self, rows=None, cols=None):$/;"	kind:member	line:1008
+tearDown	../test_tablib.py	/^    def tearDown(self):$/;"	kind:member	line:39
+templates_path	../docs/conf.py	/^templates_path = ['_templates']$/;"	kind:variable	line:31
+test.py	../test.py	1;"	kind:file	line:1
+test_add_callable_column	../test_tablib.py	/^    def test_add_callable_column(self):$/;"	kind:member	line:148
+test_add_column	../test_tablib.py	/^    def test_add_column(self):$/;"	kind:member	line:73
+test_add_column_no_data_no_headers	../test_tablib.py	/^    def test_add_column_no_data_no_headers(self):$/;"	kind:member	line:93
+test_add_column_with_header_and_data_exists	../test_tablib.py	/^    def test_add_column_with_header_and_data_exists(self):$/;"	kind:member	line:133
+test_add_column_with_header_and_headers_only_exist	../test_tablib.py	/^    def test_add_column_with_header_and_headers_only_exist(self):$/;"	kind:member	line:118
+test_add_column_with_header_ignored	../test_tablib.py	/^    def test_add_column_with_header_ignored(self):$/;"	kind:member	line:104
+test_auto_format_detect	../test_tablib.py	/^    def test_auto_format_detect(self):$/;"	kind:function	line:723
+test_book_export_no_exceptions	../test_tablib.py	/^    def test_book_export_no_exceptions(self):$/;"	kind:function	line:427
+test_column_stacking	../test_tablib.py	/^    def test_column_stacking(self):$/;"	kind:function	line:776
+test_csv_column_delete	../test_tablib.py	/^    def test_csv_column_delete(self):$/;"	kind:function	line:900
+test_csv_column_select	../test_tablib.py	/^    def test_csv_column_select(self):$/;"	kind:function	line:887
+test_csv_column_sort	../test_tablib.py	/^    def test_csv_column_sort(self):$/;"	kind:function	line:913
+test_csv_export	../test_tablib.py	/^    def test_csv_export(self):$/;"	kind:member	line:247
+test_csv_format_detect	../test_tablib.py	/^    def test_csv_format_detect(self):$/;"	kind:function	line:669
+test_csv_formatter_support_kwargs	../test_tablib.py	/^    def test_csv_formatter_support_kwargs(self):$/;"	kind:function	line:957
+test_csv_import_set	../test_tablib.py	/^    def test_csv_import_set(self):$/;"	kind:function	line:491
+test_csv_import_set_semicolon_with_spaces	../test_tablib.py	/^    def test_csv_import_set_semicolon_with_spaces(self):$/;"	kind:function	line:528
+test_csv_import_set_semicolons	../test_tablib.py	/^    def test_csv_import_set_semicolons(self):$/;"	kind:function	line:503
+test_csv_import_set_with_newlines	../test_tablib.py	/^    def test_csv_import_set_with_newlines(self):$/;"	kind:function	line:541
+test_csv_import_set_with_spaces	../test_tablib.py	/^    def test_csv_import_set_with_spaces(self):$/;"	kind:function	line:515
+test_data_slicing	../test_tablib.py	/^    def test_data_slicing(self):$/;"	kind:member	line:182
+test_databook_add_sheet_accepts_dataset_subclasses	../test_tablib.py	/^    def test_databook_add_sheet_accepts_dataset_subclasses(self):$/;"	kind:function	line:943
+test_databook_add_sheet_accepts_only_dataset_instances	../test_tablib.py	/^    def test_databook_add_sheet_accepts_only_dataset_instances(self):$/;"	kind:function	line:933
+test_databook_formatter_support_kwargs	../test_tablib.py	/^    def test_databook_formatter_support_kwargs(self):$/;"	kind:function	line:976
+test_databook_formatter_with_new_lines	../test_tablib.py	/^    def test_databook_formatter_with_new_lines(self):$/;"	kind:function	line:980
+test_datetime_append	../test_tablib.py	/^    def test_datetime_append(self):$/;"	kind:function	line:406
+test_dbf_export_set	../test_tablib.py	/^    def test_dbf_export_set(self):$/;"	kind:function	line:588
+test_dbf_format_detect	../test_tablib.py	/^    def test_dbf_format_detect(self):$/;"	kind:function	line:633
+test_dbf_import_set	../test_tablib.py	/^    def test_dbf_import_set(self):$/;"	kind:function	line:567
+test_delete	../test_tablib.py	/^    def test_delete(self):$/;"	kind:member	line:209
+test_empty_append	../test_tablib.py	/^    def test_empty_append(self):$/;"	kind:member	line:43
+test_empty_append_with_headers	../test_tablib.py	/^    def test_empty_append_with_headers(self):$/;"	kind:member	line:52
+test_formatters	../test_tablib.py	/^    def test_formatters(self):$/;"	kind:function	line:864
+test_get_col	../test_tablib.py	/^    def test_get_col(self):$/;"	kind:member	line:167
+test_header_slicing	../test_tablib.py	/^    def test_header_slicing(self):$/;"	kind:member	line:155
+test_html_export	../test_tablib.py	/^    def test_html_export(self):$/;"	kind:member	line:281
+test_html_export_none_value	../test_tablib.py	/^    def test_html_export_none_value(self):$/;"	kind:member	line:299
+test_json_export	../test_tablib.py	/^    def test_json_export(self):$/;"	kind:member	line:231
+test_json_format_detect	../test_tablib.py	/^    def test_json_format_detect(self):$/;"	kind:function	line:699
+test_json_import_book	../test_tablib.py	/^    def test_json_import_book(self):$/;"	kind:function	line:453
+test_json_import_set	../test_tablib.py	/^    def test_json_import_set(self):$/;"	kind:function	line:441
+test_latex_escaping	../test_tablib.py	/^    def test_latex_escaping(self):$/;"	kind:function	line:365
+test_latex_export	../test_tablib.py	/^    def test_latex_export(self):$/;"	kind:member	line:319
+test_latex_export_caption	../test_tablib.py	/^    def test_latex_export_caption(self):$/;"	kind:function	line:350
+test_latex_export_empty_dataset	../test_tablib.py	/^    def test_latex_export_empty_dataset(self):$/;"	kind:function	line:342
+test_latex_export_no_headers	../test_tablib.py	/^    def test_latex_export_no_headers(self):$/;"	kind:function	line:345
+test_latex_export_none_values	../test_tablib.py	/^    def test_latex_export_none_values(self):$/;"	kind:function	line:358
+test_remove_duplicates	../test_tablib.py	/^    def test_remove_duplicates(self):$/;"	kind:function	line:811
+test_row_slicing	../test_tablib.py	/^    def test_row_slicing(self):$/;"	kind:member	line:198
+test_row_stacking	../test_tablib.py	/^    def test_row_stacking(self):$/;"	kind:function	line:761
+test_rst_force_grid	../test_tablib.py	/^    def test_rst_force_grid(self):$/;"	kind:function	line:985
+test_rst_formatter_doctests	../test_tablib.py	/^    def test_rst_formatter_doctests(self):$/;"	kind:member	line:999
+test_set_headers_with_incorrect_dimension	../test_tablib.py	/^    def test_set_headers_with_incorrect_dimension(self):$/;"	kind:member	line:61
+test_sorting	../test_tablib.py	/^    def test_sorting(self):$/;"	kind:function	line:794
+test_str_no_columns	../test_tablib.py	/^    def test_str_no_columns(self):$/;"	kind:function	line:374
+test_subset	../test_tablib.py	/^    def test_subset(self):$/;"	kind:function	line:845
+test_tablib.py	../test_tablib.py	1;"	kind:file	line:1
+test_transpose	../test_tablib.py	/^    def test_transpose(self):$/;"	kind:function	line:738
+test_transpose_multiple_headers	../test_tablib.py	/^    def test_transpose_multiple_headers(self):$/;"	kind:function	line:752
+test_tsv_export	../test_tablib.py	/^    def test_tsv_export(self):$/;"	kind:member	line:264
+test_tsv_format_detect	../test_tablib.py	/^    def test_tsv_format_detect(self):$/;"	kind:function	line:684
+test_tsv_import_set	../test_tablib.py	/^    def test_tsv_import_set(self):$/;"	kind:function	line:555
+test_unicode_append	../test_tablib.py	/^    def test_unicode_append(self):$/;"	kind:function	line:384
+test_unicode_csv	../test_tablib.py	/^    def test_unicode_csv(self):$/;"	kind:function	line:875
+test_unicode_renders_markdown_table	../test_tablib.py	/^    def test_unicode_renders_markdown_table(self):$/;"	kind:function	line:927
+test_wipe	../test_tablib.py	/^    def test_wipe(self):$/;"	kind:function	line:829
+test_yaml_format_detect	../test_tablib.py	/^    def test_yaml_format_detect(self):$/;"	kind:function	line:710
+test_yaml_import_book	../test_tablib.py	/^    def test_yaml_import_book(self):$/;"	kind:function	line:478
+test_yaml_import_set	../test_tablib.py	/^    def test_yaml_import_set(self):$/;"	kind:function	line:466
+tests_require	../setup.py	/^    tests_require=['pytest'],$/;"	kind:variable	line:71
+title	../tablib/formats/_csv.py	/^title = 'csv'$/;"	kind:variable	line:9
+title	../tablib/formats/_dbf.py	/^title = 'dbf'$/;"	kind:variable	line:24
+title	../tablib/formats/_df.py	/^title = 'df'$/;"	kind:variable	line:22
+title	../tablib/formats/_html.py	/^title = 'html'$/;"	kind:variable	line:21
+title	../tablib/formats/_json.py	/^title = 'json'$/;"	kind:variable	line:12
+title	../tablib/formats/_latex.py	/^title = 'latex'$/;"	kind:variable	line:11
+title	../tablib/formats/_ods.py	/^title = 'ods'$/;"	kind:variable	line:9
+title	../tablib/formats/_rst.py	/^title = 'rst'$/;"	kind:variable	line:18
+title	../tablib/formats/_tsv.py	/^title = 'tsv'$/;"	kind:variable	line:12
+title	../tablib/formats/_xls.py	/^title = 'xls'$/;"	kind:variable	line:14
+title	../tablib/formats/_xlsx.py	/^title = 'xlsx'$/;"	kind:variable	line:31
+title	../tablib/formats/_yaml.py	/^title = 'yaml'$/;"	kind:variable	line:9
+toString	../tablib/packages/dbfpy/fields.py	/^    def toString(self):$/;"	kind:member	line:131
+toString	../tablib/packages/dbfpy/header.py	/^    def toString(self):$/;"	kind:function	line:247
+toString	../tablib/packages/dbfpy/record.py	/^    def toString(self):$/;"	kind:member	line:219
+toString	../tablib/packages/dbfpy3/fields.py	/^    def toString(self):$/;"	kind:member	line:132
+toString	../tablib/packages/dbfpy3/header.py	/^    def toString(self):$/;"	kind:function	line:244
+toString	../tablib/packages/dbfpy3/record.py	/^    def toString(self):$/;"	kind:member	line:220
+to_unicode	../tablib/formats/_rst.py	/^def to_unicode(value):$/;"	kind:function	line:31
+transpose	../tablib/core.py	/^    def transpose(self):$/;"	kind:member	line:909
+tsv	../tablib/core.py	/^    def tsv():$/;"	kind:member	line:544
+tuple	../tablib/core.py	/^    def tuple(self):$/;"	kind:member	line:88
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = "C"$/;"	kind:variable	line:202
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = "D"$/;"	kind:variable	line:357
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = "F"$/;"	kind:variable	line:263
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = "I"$/;"	kind:variable	line:268
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = "L"$/;"	kind:variable	line:298
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = "M"$/;"	kind:variable	line:335
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = "N"$/;"	kind:variable	line:221
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = "T"$/;"	kind:variable	line:391
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = "Y"$/;"	kind:variable	line:283
+typeCode	../tablib/packages/dbfpy/fields.py	/^    typeCode = None$/;"	kind:variable	line:69
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = "C"$/;"	kind:variable	line:203
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = "D"$/;"	kind:variable	line:358
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = "F"$/;"	kind:variable	line:264
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = "I"$/;"	kind:variable	line:269
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = "L"$/;"	kind:variable	line:299
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = "M"$/;"	kind:variable	line:336
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = "N"$/;"	kind:variable	line:222
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = "T"$/;"	kind:variable	line:392
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = "Y"$/;"	kind:variable	line:284
+typeCode	../tablib/packages/dbfpy3/fields.py	/^    typeCode = None$/;"	kind:variable	line:70
+unescape	../tablib/packages/markup.py	/^def unescape( text ):$/;"	kind:function	line:417
+unescape	../tablib/packages/markup3.py	/^def unescape( text ):$/;"	kind:function	line:419
+unicode	../tablib/compat.py	/^    unicode = str$/;"	kind:variable	line:35
+unicode	../tablib/compat.py	/^    unicode = unicode$/;"	kind:variable	line:50
+unzfill	../tablib/packages/dbfpy/utils.py	/^def unzfill(str):$/;"	kind:function	line:20
+unzfill	../tablib/packages/dbfpy3/utils.py	/^def unzfill(str):$/;"	kind:function	line:20
+update	../tablib/packages/ordereddict.py	/^    update = DictMixin.update$/;"	kind:variable	line:93
+upper_oneliner	../tablib/packages/markup.py	/^upper_oneliner = _oneliner( case='upper' )$/;"	kind:variable	line:350
+upper_oneliner	../tablib/packages/markup3.py	/^upper_oneliner = _oneliner( case='upper' )$/;"	kind:variable	line:352
+url	../setup.py	/^    url='http:\/\/python-tablib.org',$/;"	kind:variable	line:57
+utils.py	../tablib/packages/dbfpy/utils.py	1;"	kind:file	line:1
+utils.py	../tablib/packages/dbfpy3/utils.py	1;"	kind:file	line:1
+values	../tablib/packages/ordereddict.py	/^    values = DictMixin.values$/;"	kind:variable	line:95
+version	../docs/conf.py	/^version = tablib.__version__$/;"	kind:variable	line:51
+version	../setup.py	/^    version = re.search(r'^__version__\\s*=\\s*[\\'"]([^\\'"]*)[\\'"]',$/;"	kind:variable	line:46
+version	../setup.py	/^    version=version,$/;"	kind:variable	line:51
+width	../tablib/core.py	/^    def width(self):$/;"	kind:member	line:424
+wipe	../tablib/core.py	/^    def wipe(self):$/;"	kind:member	line:1002
+wipe	../tablib/core.py	/^    def wipe(self):$/;"	kind:member	line:1070
+wrap	../tablib/formats/_xls.py	/^wrap = xlwt.easyxf("alignment: wrap on")$/;"	kind:variable	line:18
+write	../tablib/packages/dbfpy/dbfnew.py	/^    def write(self, filename):$/;"	kind:member	line:137
+write	../tablib/packages/dbfpy/header.py	/^    def write(self, stream):$/;"	kind:function	line:239
+write	../tablib/packages/dbfpy3/dbfnew.py	/^    def write(self, filename):$/;"	kind:member	line:137
+write	../tablib/packages/dbfpy3/header.py	/^    def write(self, stream):$/;"	kind:function	line:235
+write_stream	../tablib/packages/dbfpy/dbfnew.py	/^    def write_stream(self, stream):$/;"	kind:member	line:147
+xls	../tablib/core.py	/^    def xls():$/;"	kind:member	line:474
+xlsx	../tablib/core.py	/^    def xlsx():$/;"	kind:member	line:491
+xrange	../tablib/compat.py	/^    xrange = range$/;"	kind:variable	line:38
+xrange	../tablib/compat.py	/^    xrange = xrange$/;"	kind:variable	line:51
+yaml	../tablib/core.py	/^    def yaml():$/;"	kind:member	line:559
+year	../tablib/packages/dbfpy/header.py	/^    year = property(lambda self: self.lastUpdate.year)$/;"	kind:variable	line:144
+year	../tablib/packages/dbfpy3/header.py	/^    year = property(lambda self: self.lastUpdate.year)$/;"	kind:variable	line:140
